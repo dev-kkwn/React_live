@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-.dropdown{
+.dropdown,.dropdown-submenu{
   position: relative;
   display: inline-block;
 }
@@ -29,13 +29,25 @@ code {
   background: gray;
   color: black;
   padding: 10px;
-  
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: gray;
+  color: black;
+  padding: 10px;
+  left: 100%;
+  top: -150%;
+}
+
+.dropdown:hover .dropdown-content,.dropdown-submenu:hover .dropdown-menu{
   display: block;
 }
 
-.dropdown-list:hover{
+.dropdown-submenu:hover,.dropdown-list:hover{
   color: white;
 }
+
