@@ -18,7 +18,7 @@ function Nav() {
                 <div className="md:hidden text-2xl">
                     <HiOutlineBars3BottomRight onClick={() => setSideMenu(true)} />
                 </div>
-                <div className={clsx("fixed h-full w-screen md:hidden backdrop-blur-sm top-0 right-0 -translate-x-full duration-1000", sidemenu && "translate-x-0")}>
+                <div className={clsx("navlink fixed h-full w-screen md:hidden backdrop-blur-sm top-0 right-0 -translate-x-full duration-1000", sidemenu && "translate-x-0")}>
                     <div className="text-black bg-white flex flex-col absolute w-56 h-screen left-0 top-0 p-8 z-50">
                         <div className="flex justify-between items-center mb-8">
                             <div>

@@ -21,6 +21,10 @@ code {
   display: inline-block;
 }
 
+.navlink{
+  z-index: 2;
+}
+
 .dropdown-content{
   display: none;
   position: absolute;
@@ -29,6 +33,7 @@ code {
   background: gray;
   color: black;
   padding: 10px;
+  z-index: 2;
 }
 
 .dropdown-menu{
@@ -41,6 +46,7 @@ code {
   padding: 10px;
   left: 100%;
   top: -150%;
+  z-index: 2;
 }
 
 .dropdown:hover .dropdown-content,.dropdown-submenu:hover .dropdown-menu{
