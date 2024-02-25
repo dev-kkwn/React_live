@@ -12,26 +12,21 @@ import { Petrochem } from "./components/serv-petrochem";
 function App() {
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
 
-      {/*<Routes>
+      <Routes>
         <Route path="/" exact element={<Section1 />} />
-        <Route path="/services"> */}
-      {/* <Route path="metals" exact element={<Gold />} /> */}
-      {/* <Route path="metals" exact element={<Gold />} /> */}
-      {/* <Route path="" exact element={<Wedding />} /> */}
-      {/* <Route path="" exact element={<Party />} /> */}
-      {/* <Route path="" exact element={<Party />} /> */}
-      {/* <Route path="" exact element={<Party />} /> */}
-      {/* <Route path="" exact element={<Party />} /> */}
-      {/* </Route>
-      </Routes> */}
-      {/* <Gold/> */}
-      {/* <Footer /> */}
-      {/* <About /> */}
-      {/* <Servit /> */}
-      {/* <Footer /> */}
-      <Petrochem />
+        <Route path="/services">
+          {/* <Route path="metals" exact element={<Gold />} /> */}
+          <Route path="metals" exact element={<Gold />} />
+          {/* <Route path="" exact element={<Wedding />} /> */}
+          <Route path="petrochem" exact element={<Petrochem />} />
+          <Route path="solar" exact element={<Solar />} />
+          {/* <Route path="" exact element={<Party />} /> */}
+          {/* <Route path="" exact element={<Party />} /> */}
+        </Route>
+      </Routes>
+      <Footer />
     </>
   );
 }
