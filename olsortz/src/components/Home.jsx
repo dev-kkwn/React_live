@@ -1,7 +1,10 @@
 import React from "react";
-import sec1banner from "../assests/sec-1-banner.jpg";
-import aboutimg1 from "../assests/home-about-img1.jpg";
-export default function Section1() {
+import sec1banner from "../assert/sec-1-banner.jpg";
+import aboutimg1 from "../assert/home-about-img1.jpg";
+import benefitsimg from "../assert/home-benefit-img.jpg";
+import futureimg from "../assert/home-future-img.jpg";
+
+function Section1() {
   return (
     <section>
       <div id="sec1" className="container h-[450px] md:h-[600px] lg:w-full">
@@ -16,11 +19,11 @@ export default function Section1() {
           <h1 className="text-3xl font-bold w-[290px] md:text-4xl md:w-96 lg:w-[580px] xl:text-6xl xl:font-bold xl:w-[800px]">
             PROVIDING ENERGY SOLUCTIONS
           </h1>
-          <p className="text-sm w-auto mt-4 mb-8 md:text-md md:mt-7 md:mb-10 md:w-[408px] xl:text-lg xl:w-[430px] xl:mt-8">
+          <p className="text-sm w-96 mt-4 mb-8 md:text-md md:mt-7 md:mb-10 md:w-[408px] xl:text-lg xl:w-[430px] xl:mt-8">
             <span className="lg:block">At OLSORTZ,</span> we're in the business
             of enhancing life's possibilities.
           </p>
-          <a href="" className="border mt-9 p-2 text-sm md:text-lg xl:text-xl ">
+          <a href={'/'} className="border mt-9 p-2 text-sm md:text-lg xl:text-xl ">
             SEE HOW WE DO IT{" "}
             <span className="h-2 p-1 bg-white rounded-md ml-4">1234</span>
           </a>
@@ -29,7 +32,7 @@ export default function Section1() {
 
       <div id="sec2" className="container mx-0 lg:w-[100%] p-10 xl:w-auto">
         <div className="flex  flex-wrap">
-          <div className="h-auto w-full lg:w-1/2 text-center justify-center p-4">
+          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-center justify-center p-4">
             <p className="text-md my-5 mb-6 xl:text-xl xl:mt-16">
               <span className=""> - </span> ABOUT US <span> - </span>
             </p>
@@ -43,13 +46,65 @@ export default function Section1() {
               customer satisfaction is reflected in our rigorous quality control
               processes.
             </p>
-            <a href="" className="text-xl xl:text-3xl ">
+            <a href={'/'} className="text-xl xl:text-3xl ">
+              Learn More +
+            </a>
+          </div>
+          <div className="order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+            <img
+              src={aboutimg1}
+              className="p-5 rounded-md object-cover "
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="sec3" className="container mx-0 lg:w-[100%] p-10 xl:w-auto">
+        <div className="flex  flex-wrap">
+          <div className="order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+            <img
+              src={benefitsimg}
+              className="lg:p-5 rounded-md object-cover "
+              alt=""
+            />
+          </div>
+          <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-center justify-center p-4">
+            <p className="text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
+              <span className=""> - </span> OUR BENEFITS <span> - </span>
+            </p>
+            <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
+              THE FUTURE OF OIL & GAS IS HERE
+            </h1>
+            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9">
+            The future of oil and gas brings with it unparalleled advancements in efficiency and sustainability. With cutting-edge technologies, we harness cleaner extraction methods, minimizing environmental impact. Enhanced data analytics optimize operations, ensuring safer and more cost-effective production. Embracing innovation, the future of oil and gas propels us towards a more sustainable energy landscape.
+            </p>
+            <a href={'/'} className="text-xl xl:text-3xl ">
+              Learn More +
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="sec4" className="container mx-0 lg:w-[100%] p-10 xl:w-auto">
+        <div className="flex  flex-wrap">
+          <div className="h-auto w-full lg:w-1/2 text-center justify-center p-4">
+            <p className="text-md my-5 mb-6 xl:text-xl xl:mt-7">
+              <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
+            </p>
+            <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
+              POWERING YOUR FUTURE
+            </h1>
+            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9">
+            With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way.
+            </p>
+            <a href={'/'} className="text-xl xl:text-3xl ">
               Learn More +
             </a>
           </div>
           <div className="h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
-              src={aboutimg1}
+              src={futureimg}
               className="p-5 rounded-md object-cover "
               alt=""
             />
@@ -59,3 +114,5 @@ export default function Section1() {
     </section>
   );
 }
+
+export default Section1;
