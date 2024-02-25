@@ -56,20 +56,20 @@ function Nav() {
                 <h1 className="dropdown-list m-1 p-2">
                   <Link to="/services/metals">Precious Metals</Link>
                 </h1>
-                <h1 className="dropdown-list m-1 p-2">services</h1>
-                <h1 className="dropdown-list m-1 p-2">services</h1>
-                <h1 className="dropdown-list m-1 p-2">services</h1>
-                <h1 className="dropdown-list m-1 p-2">services</h1>
-                <h1 className="dropdown-list m-1 p-2">services</h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
                 <div className="dropdown-submenu ">
                   <div className="flex items-center">
                     <h1 className="mx-1 p-2">sub&nbsp;services</h1>
                     <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                   </div>
                   <div className="dropdown-menu">
-                    <h1 className="dropdown-list m-1 p-2">services</h1>
-                    <h1 className="dropdown-list m-1 p-2">services</h1>
-                    <h1 className="dropdown-list m-1 p-2">services</h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
                   </div>
                 </div>
               </div>
@@ -104,23 +104,22 @@ function Nav() {
               </div>
             </div>
             <div className="dropdown-content lg:text-lg">
-              <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">
-              <Link to="/services/metals">Precious Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
               <div className="dropdown-submenu ">
                 <div className="flex items-center">
                   <h1 className="mx-1 p-2">sub&nbsp;services</h1>
                   <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                 </div>
                 <div className="dropdown-menu">
-                  <h1 className="dropdown-list m-1 p-2">services</h1>
-                  <h1 className="dropdown-list m-1 p-2">services</h1>
-                  <h1 className="dropdown-list m-1 p-2">services</h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
                 </div>
               </div>
             </div>
