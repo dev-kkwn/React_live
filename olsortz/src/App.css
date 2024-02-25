@@ -52,3 +52,11 @@ background-size: cover;
 background-repeat: no-repeat;
 position: relative;
 }
+
+.context-kk-realestate-banner{
+background-image: url(./assert/realestate-img.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
