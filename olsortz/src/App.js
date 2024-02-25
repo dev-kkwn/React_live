@@ -9,19 +9,19 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <Routes>
         <Route path="/" exact element={<Section1 />} />
-        <Route path="/services">
+        <Route path="/services"> */}
           {/* <Route path="metals" exact element={<Gold />} /> */}
-          <Route path="metals" exact element={<Gold />} />
+          {/* <Route path="metals" exact element={<Gold />} /> */}
           {/* <Route path="" exact element={<Wedding />} /> */}
           {/* <Route path="" exact element={<Party />} /> */}
           {/* <Route path="" exact element={<Party />} /> */}
           {/* <Route path="" exact element={<Party />} /> */}
           {/* <Route path="" exact element={<Party />} /> */}
-        </Route>
-      </Routes>
+        {/* </Route>
+      </Routes> */}
       {/* <Gold/> */}
       <Footer />
     </>
