@@ -9,20 +9,21 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <Nav />
-      <Routes>
+      <Nav />
+      
+      {/*<Routes>
         <Route path="/" exact element={<Section1 />} />
         <Route path="/services"> */}
-          {/* <Route path="metals" exact element={<Gold />} /> */}
-          {/* <Route path="metals" exact element={<Gold />} /> */}
-          {/* <Route path="" exact element={<Wedding />} /> */}
-          {/* <Route path="" exact element={<Party />} /> */}
-          {/* <Route path="" exact element={<Party />} /> */}
-          {/* <Route path="" exact element={<Party />} /> */}
-          {/* <Route path="" exact element={<Party />} /> */}
-        {/* </Route>
+      {/* <Route path="metals" exact element={<Gold />} /> */}
+      {/* <Route path="metals" exact element={<Gold />} /> */}
+      {/* <Route path="" exact element={<Wedding />} /> */}
+      {/* <Route path="" exact element={<Party />} /> */}
+      {/* <Route path="" exact element={<Party />} /> */}
+      {/* <Route path="" exact element={<Party />} /> */}
+      {/* <Route path="" exact element={<Party />} /> */}
+      {/* </Route>
       </Routes> */}
-      {/* <Gold/> */}
+      <Gold />
       <Footer />
     </>
   );
