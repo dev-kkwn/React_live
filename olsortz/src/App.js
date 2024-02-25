@@ -24,13 +24,10 @@ function App() {
       {/* <Route path="" exact element={<Party />} /> */}
       {/* </Route>
       </Routes> */}
-<<<<<<< HEAD
-      {/* <Gold/> */}
+      <Gold/>
       {/* <Footer /> */}
       <About />
-=======
       <Footer />
->>>>>>> 938a3429fc20e5df4ec300ca8de8f320db8495a8
     </>
   );
 }
