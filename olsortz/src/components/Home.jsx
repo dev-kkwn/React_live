@@ -1,7 +1,6 @@
 import React from "react";
-import sec1banner from "../asset/sec-1-banner.jpg";
-import aboutimg1 from "../asset/home-about-img1.jpg";
-
+import sec1banner from "../assests/sec-1-banner.jpg";
+import aboutimg1 from "../assests/home-about-img1.jpg";
 export default function Section1() {
   return (
     <section>
@@ -60,4 +59,3 @@ export default function Section1() {
     </section>
   );
 }
-
