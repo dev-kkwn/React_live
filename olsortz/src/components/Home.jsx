@@ -27,7 +27,7 @@ function Section1() {
           <h1 className="text-3xl font-bold w-[290px] md:text-4xl md:w-96 lg:w-[580px] xl:text-6xl xl:font-bold xl:w-[800px]">
             PROVIDING ENERGY SOLUCTIONS
           </h1>
-          <p className="text-sm w-96 mt-4 mb-8 md:text-md md:mt-7 md:mb-10 md:w-[408px] xl:text-lg xl:w-[430px] xl:mt-8">
+          <p className="text-sm w-auto mt-4 mb-8 md:text-md md:mt-7 md:mb-10 md:w-[408px] xl:text-lg xl:w-[430px] xl:mt-8">
             <span className="lg:block">At OLSORTZ,</span> we're in the business
             of enhancing life's possibilities.
           </p>
