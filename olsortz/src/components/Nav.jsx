@@ -104,22 +104,22 @@ function Nav() {
               </div>
             </div>
             <div className="dropdown-content lg:text-lg">
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">General Trading&nbsp;</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Food&nbsp;& Beverages</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/petrochem">Petrochemicals &&nbsp;lubricants</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/solar">Solar technology &&nbsp;services</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">IT&nbsp;Division</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Real&nbsp;Estate</Link></h1>
               <div className="dropdown-submenu ">
                 <div className="flex items-center">
                   <h1 className="mx-1 p-2">sub&nbsp;services</h1>
                   <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                 </div>
                 <div className="dropdown-menu">
-                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Bank instruments Lc&nbsp;SBLC</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Loan & project&nbsp;finance</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">High Yield&nbsp;Investment Programs</Link></h1>
                 </div>
               </div>
             </div>
