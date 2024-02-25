@@ -119,7 +119,7 @@ function Section1() {
           <p className="text-white md:text-lg lg:text-xl mb-3"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
           <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
         </div>
-        <div className="flex flex-wrap gap-7 w-full justify-center p-10">
+        <div className="flex flex-wrap gap-7 w-full justify-center pl-10 pt-10 pr-10 pb-4">
 
           <div class="w-72 h-fit group">
             <div class="relative overflow-hidden">
@@ -208,8 +208,9 @@ function Section1() {
               </div>
             </div>
           </div>
-
-
+        </div>
+        <div className="text-center text-white text-sm font-bold p-7 pb-10">
+          <a href="" className="border border-white p-3 border-800 hover:bg-black transition-all duration-300"> DISCOVER OUR SERVICES </a>
         </div>
       </div>
     </section>
