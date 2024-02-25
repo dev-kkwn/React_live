@@ -7,11 +7,12 @@ import { Gold } from "./components/serv-gold";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About-us";
 import Servit from "./components/serv-it";
+import { Petrochem } from "./components/serv-petrochem";
 
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
 
       {/*<Routes>
         <Route path="/" exact element={<Section1 />} />
@@ -28,8 +29,9 @@ function App() {
       {/* <Gold/> */}
       {/* <Footer /> */}
       {/* <About /> */}
-      <Servit />
-      <Footer />
+      {/* <Servit /> */}
+      {/* <Footer /> */}
+      <Petrochem />
     </>
   );
 }

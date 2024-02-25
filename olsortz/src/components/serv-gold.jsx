@@ -5,7 +5,7 @@ export function Gold() {
   return (
     <>
       <section className="p-0 md:p-10 ">
-        <div className="context-banner md:flex justify-start items-center w-full">   
+        <div className="context-kk-banner md:flex justify-start items-center w-full">   
           <div className="context md:m-10 h-80 w-full">
             <div className="text w-72  md:my-10 md:mx-10">
               <h1 className="text-3xl font-bold">
