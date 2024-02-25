@@ -105,7 +105,8 @@ function Nav() {
             </div>
             <div className="dropdown-content lg:text-lg">
               <h1 className="dropdown-list m-1 p-2">services</h1>
-              <h1 className="dropdown-list m-1 p-2">services</h1>
+              <h1 className="dropdown-list m-1 p-2">
+              <Link to="/services/metals">Precious Metals</Link></h1>
               <h1 className="dropdown-list m-1 p-2">services</h1>
               <h1 className="dropdown-list m-1 p-2">services</h1>
               <h1 className="dropdown-list m-1 p-2">services</h1>
