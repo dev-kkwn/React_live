@@ -4,11 +4,10 @@ import precious3 from "../assests/precious3.jpg";
 export function Gold() {
   return (
     <>
-      <section className="p-10">
-        <div className="context-banner my-5 flex justify-start items-center">
-          
-          <div className="context m-10 w-auto h-80">
-            <div className="text w-72 my-10 mx-10">
+      <section className="p-0 md:p-10 ">
+        <div className="context-banner flex justify-start items-center w-full">   
+          <div className="context mx-5 md:m-10 h-80 w-full">
+            <div className="text w-72  my-10 md:mx-10">
               <h1 className="text-3xl font-bold">
                 Gold & Precious Metals Trading
               </h1>
