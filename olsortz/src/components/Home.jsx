@@ -16,7 +16,7 @@ function Section1() {
   return (
     <section>
       <div id="sec1" className="container h-[450px] md:h-[600px] lg:w-full">
-        <div className="absolute ">
+        <div className="absolute">
           <img
             src={sec1banner}
             className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
