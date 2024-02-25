@@ -6,8 +6,9 @@ export function Gold() {
     <>
       <section className="p-10">
         <div className="context-banner my-5 flex justify-start items-center">
+          
           <div className="context m-10 w-auto h-80">
-            <div className="text w-60 my-10">
+            <div className="text w-72 my-10 mx-10">
               <h1 className="text-3xl font-bold">
                 Gold & Precious Metals Trading
               </h1>
@@ -22,36 +23,51 @@ export function Gold() {
         <div className="intro-bang p-5">
           <div className="flex justify-evenly px-5">
             <div className="part-1 mx-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
-              unde aspernatur voluptatem distinctio quos dolore et accusantium.
-              Error molestiae et, necessitatibus non accusantium, soluta facilis
-              reprehenderit fugiat, at atque praesentium?
+              <h1 className="text-2xl my-2 font-semibold">Inherent Value and Global Demand</h1>
+              Precious metals like gold, silver, platinum, and palladium hold
+              inherent value due to their rarity, beauty, and utility across
+              various industries. They are globally accepted as a store of value
+              and are sought after by investors worldwide.
             </div>
             <div className="part-2 mx-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              voluptate sint quisquam officiis eligendi consectetur doloremque
-              ut officia voluptatibus atque inventore, corporis illo qui aliquid
-              modi dolore dolores fugit perferendis.
+              <h1 className="text-2xl my-2 font-semibold">Diverse Investment Options and Safe-Haven Status</h1>
+              Investors have access to a variety of investment vehicles for
+              precious metals, including physical bullion, ETFs, mining stocks,
+              and futures contracts. Precious metals are often seen as
+              safe-haven assets, providing stability and wealth preservation
+              during times of economic uncertainty or geopolitical instability.
             </div>
             <div className="part-3 mx-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur illo molestiae voluptate iste incidunt corrupti
-              suscipit nulla enim, inventore voluptatum pariatur ex laudantium
-              aliquam aperiam. Vero tenetur earum reiciendis fuga.
+              <h1 className="text-2xl my-2 font-semibold">Industrial Applications, Limited Supply</h1>
+              Precious metals play crucial roles in industries such as
+              electronics, automotive, and healthcare due to their unique
+              properties. Despite their industrial demand, precious metals have
+              limited natural supplies, which contributes to their enduring
+              value and attractiveness as investments.
             </div>
           </div>
         </div>
         <div className="main-wrapper p-5">
           <div className="main-part-1 flex justify-around items-center w-full my-10">
-            <div className="pm-1 w-2/4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              architecto, sequi aperiam explicabo, facilis quasi iure soluta
-              repellendus culpa quidem libero cumque doloribus hic veniam rem at
-              doloremque a recusandae! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Tenetur ullam omnis quaerat incidunt, corporis
-              quo, soluta accusantium in architecto, eaque iusto ipsa
-              repellendus maxime aperiam molestiae eveniet velit saepe
-              laudantium.
+            <div className="pm-1 w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">
+                Core Values and Commitments
+              </h1>
+              <p className="my-5 text-lg">
+                In addition to innovation, integrity, and excellence, emphasize
+                the company's dedication to safety as a top priority in all
+                operations.
+              </p>
+              <p className="my-5 text-lg">
+                Discuss the company's long-term vision for sustainability,
+                aiming to become a leader in environmentally friendly practices
+                within the precious metals industry.
+              </p>
+              <p className="my-5 text-lg">
+                Highlight the company's role as a responsible corporate citizen,
+                actively contributing to the communities in which it operates
+                through philanthropic initiatives and partnerships.
+              </p>
             </div>
             <div className="pm-img">
               <img
@@ -61,7 +77,7 @@ export function Gold() {
               />
             </div>
           </div>
-          <div className="main-part-2 flex justify-around items-center w-full">
+          <div className="main-part-2 flex justify-around items-center w-full my-5">
             <div className="pm-img">
               <img
                 src={precious2}
@@ -69,27 +85,45 @@ export function Gold() {
                 className="w- h-96 rounded-3xl"
               />
             </div>
-            <div className="pm-2 w-2/4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
-              neque, maiores impedit magnam unde provident, necessitatibus
-              repellendus quos natus praesentium pariatur dignissimos qui et
-              officiis beatae cupiditate enim ratione porro. Non tempora
-              quisquam, iusto voluptatum necessitatibus voluptates repudiandae
-              amet deserunt suscipit, hic atque dolorem ab dolor! Voluptate
-              alias aspernatur sed itaque autem quo similique tenetur dicta,
-              rerum consequatur esse facilis.
+            <div className="pm-2 w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">
+                Operational Excellence and Sustainability
+              </h1>
+              <p className="my-5 text-lg">
+                Detail specific initiatives undertaken by the company to reduce
+                its carbon footprint, such as energy-efficient processes, waste
+                reduction programs, and recycling efforts.
+              </p>
+              <p className="my-5 text-lg">
+                Showcase partnerships with sustainability-focused organizations
+                or certifications obtained, demonstrating the company's
+                commitment to environmental stewardship.
+              </p>
+              <p className="my-5 text-lg">
+                Provide examples of innovative technologies or methodologies
+                implemented in refining processes, showcasing the company's
+                leadership in sustainable practices.
+              </p>
             </div>
           </div>
-          <div className="main-part-3 flex justify-around items-center w-full">
-            <div className="pm-3 w-2/4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              enim iure sunt architecto veniam, ut earum, nulla expedita ratione
-              quos distinctio cumque eos molestiae saepe! Accusamus dicta
-              obcaecati cumque explicabo! Consectetur facilis, cumque deleniti
-              iste debitis, quae, modi consequuntur iusto ut placeat rerum. Quis
-              ipsam suscipit aliquid atque excepturi eius tempore quia!
-              Perferendis mollitia dicta soluta. Dolorem aliquam voluptas
-              fugiat.
+          <div className="main-part-3 flex justify-around items-center w-full my-5">
+            <div className="pm-3 w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">Customer-Centric Approach</h1>
+              <p className="my-5 text-lg">
+                Highlight testimonials or case studies from satisfied customers,
+                illustrating how the company's personalized solutions have
+                positively impacted their businesses.
+              </p>
+              <p className="my-5 text-lg">
+                Discuss ongoing efforts to enhance the customer experience, such
+                as streamlined ordering processes, responsive customer support,
+                or value-added services.
+              </p>
+              <p className="my-5 text-lg">
+                Offer insights into the company's dedication to continuous
+                improvement based on customer feedback, showcasing a commitment
+                to evolving alongside the needs of its clientele
+              </p>
             </div>
             <div className="pm-img ">
               <img src={precious3} alt="image3" className="h-96 rounded-3xl" />
