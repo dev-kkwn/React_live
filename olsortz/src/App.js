@@ -5,6 +5,7 @@ import Section1 from "./components/Home";
 import Footer from "./components/Footer";
 import { Gold } from "./components/serv-gold";
 import { Route, Routes } from "react-router-dom";
+import About from "./components/About-us";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         {/* </Route>
       </Routes> */}
       {/* <Gold/> */}
-      <Footer />
+      {/* <Footer /> */}
+      <About />
     </>
   );
 }
