@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { Gold } from "./components/serv-gold";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About-us";
+import Servit from "./components/serv-it";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
       {/* <Route path="" exact element={<Party />} /> */}
       {/* </Route>
       </Routes> */}
-      <Gold/>
+      {/* <Gold/> */}
       {/* <Footer /> */}
-      <About />
+      {/* <About /> */}
+      <Servit />
       <Footer />
     </>
   );
