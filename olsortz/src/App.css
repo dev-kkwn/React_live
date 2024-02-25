@@ -44,3 +44,11 @@ background-size: cover;
 background-repeat: no-repeat;
 position: relative;
 }
+
+.context-kk-solar-banner{
+background-image: url(./assert/solar-banner-img.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}

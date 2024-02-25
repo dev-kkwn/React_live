@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./components/About-us";
 import Servit from "./components/serv-it";
 import { Petrochem } from "./components/serv-petrochem";
+import { Solar } from "./components/serv-solar";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <About /> */}
       {/* <Servit /> */}
       {/* <Footer /> */}
-      <Petrochem />
+      {/* <Petrochem /> */}
+      {/* <Solar/> */}
     </>
   );
 }
