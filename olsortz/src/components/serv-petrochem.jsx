@@ -1,7 +1,8 @@
 import React from "react";
-import itbanner from "../assert/it-img.jpg";
-import itimg1 from "../assert/it-img1.png";
-
+import petrobanner from "../assests/petrochem-banner.jpg";
+import petrocard1 from "../assests/petro-card-1.jpg";
+import petrocard2 from "../assests/petro-card-2.jpg";
+import petrocard3 from "../assests/petro-card-3.jpg";
 export function Petrochem() {
   return (
     <div>
@@ -12,7 +13,7 @@ export function Petrochem() {
         >
           <div className="absolute ">
             <img
-              src={itbanner}
+              src={petrobanner}
               className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
               alt=""
             />
@@ -60,7 +61,7 @@ export function Petrochem() {
           <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
             <div>
               <img
-                src={itimg1}
+                src={petrocard1}
                 className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-64 md:h-48 lg:h-72 object-cover"
                 alt=""
               />
@@ -83,7 +84,7 @@ export function Petrochem() {
           <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
             <div>
               <img
-                src={itimg1}
+                src={petrocard2}
                 className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
                 alt=""
               />
@@ -106,7 +107,7 @@ export function Petrochem() {
           <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
             <div>
               <img
-                src={itimg1}
+                src={petrocard3}
                 className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
                 alt=""
               />
