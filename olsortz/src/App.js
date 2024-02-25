@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav />
-      
+
       {/*<Routes>
         <Route path="/" exact element={<Section1 />} />
         <Route path="/services"> */}
@@ -23,7 +23,6 @@ function App() {
       {/* <Route path="" exact element={<Party />} /> */}
       {/* </Route>
       </Routes> */}
-      <Gold />
       <Footer />
     </>
   );
