@@ -3,6 +3,14 @@ import sec1banner from "../assert/sec-1-banner.jpg";
 import aboutimg1 from "../assert/home-about-img1.jpg";
 import benefitsimg from "../assert/home-benefit-img.jpg";
 import futureimg from "../assert/home-future-img.jpg";
+import impimg from "../assert/home-import-img.jpg";
+import goldimg from "../assert/home-gold-img.jpg";
+import fcimg from "../assert/home-fc-img.jpg";
+import solarimg from "../assert/home-solar-img.jpg";
+import lubeimg from "../assert/home-lube-img.jpg";
+import itimg from "../assert/home-it-img.jpg";
+import realestateimg from "../assert/home-realestate-img.jpg";
+import foodimg from "../assert/home-food-img.jpg";
 
 function Section1() {
   return (
@@ -92,15 +100,9 @@ function Section1() {
             <p className="text-md my-5 mb-6 xl:text-xl xl:mt-7">
               <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
             </p>
-            <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
-              POWERING YOUR FUTURE
-            </h1>
-            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9">
-            With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way.
-            </p>
-            <a href={'/'} className="text-xl xl:text-3xl ">
-              Learn More +
-            </a>
+            <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
+            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
+            <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a>
           </div>
           <div className="h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -109,6 +111,105 @@ function Section1() {
               alt=""
             />
           </div>
+        </div>
+      </div>
+
+      <div id='sec5' className="bg-gray-500">
+        <div className="text-center pt-5">
+          <p className="text-white md:text-lg lg:text-xl mb-3"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
+          <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
+        </div>
+        <div className="flex flex-wrap gap-7 w-full justify-center p-10">
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={impimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">IMPORT AND EXPORT</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={goldimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7"> GOLD & PRECIOUS METALS </h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={foodimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">FOOD & BEVERAGES</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={itimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col p-6 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">INFORMATION TECHNOLOGY</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={fcimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">FINANCIAL CONSULTANCY</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={realestateimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">REAL ESTATE CONSULTANCY </h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={solarimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">SOLAR TECHNOLOGIES</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-72 h-fit group">
+            <div class="relative overflow-hidden">
+              <img class="h-96 w-full object-cover" src={lubeimg} alt=""/>
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">PETROCHEMICALS & LUBRICANTS</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
