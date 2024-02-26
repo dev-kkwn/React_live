@@ -14,10 +14,7 @@ import Trade from "./components/serv-trade";
 import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
 import Whoweare from "./components/Who-we-are";
-<<<<<<< HEAD
-=======
 
->>>>>>> 95864eb0494541f783a8fe9c0fd7a88afe9c8826
 function App() {
   return (
     <>
@@ -38,10 +35,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-<<<<<<< HEAD
       {/* <Whoweare /> */}
-=======
->>>>>>> 95864eb0494541f783a8fe9c0fd7a88afe9c8826
     </>
   );
 }
