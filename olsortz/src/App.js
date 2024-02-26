@@ -11,19 +11,20 @@ import { Petrochem } from "./components/serv-petrochem";
 import { Solar } from "./components/serv-solar";
 import { Realestate } from "./components/serv-realestate";
 import Trade from "./components/serv-trade";
-import Whoweare from "./components/Who-we-are";
+import Food from "./components/serv-food";
+import ContactForm from "./components/contact";
 function App() {
   return (
     <>
       <Nav />
-
       <Routes>
         <Route path="/" exact element={<Section1 />} />
         <Route path="/about" exact element={<About />} />
+        <Route path="/contact" exact element={<ContactForm />} />
         <Route path="/services">
           <Route path="trade" exact element={<Trade />} />
           <Route path="metals" exact element={<Gold />} />
-          {/* <Route path="" exact element={<Wedding />} /> */}
+          <Route path="food" exact element={<Food />} />
           <Route path="petrochem" exact element={<Petrochem />} />
           <Route path="solar" exact element={<Solar />} />
           <Route path="itdiv" exact element={<Servit />} />

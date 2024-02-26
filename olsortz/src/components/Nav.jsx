@@ -39,7 +39,7 @@ function Nav() {
             </div>
             <div className="flex items-center my-2 p-1 w-max hover:text-red-500">
               <IoHomeOutline />
-              <h1 className="ml-1 capitalize">home</h1>
+              <h1 className="ml-1 capitalize"><Link to="/">Home</Link></h1>
             </div>
             <div className="dropdown w-max">
               <div className="flex items-center my-2 p-1  hover:text-red-500">
@@ -54,22 +54,23 @@ function Nav() {
               <div className="dropdown-content lg:text-lg">
                 <h1 className="dropdown-list m-1 p-2">services</h1>
                 <h1 className="dropdown-list m-1 p-2">
-                  <Link to="/services/metals">Precious Metals</Link>
+                  <Link to="/services/trade">General Trade</Link>
                 </h1>
                 <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/food">Food &&nbsp; Beverages</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/petrochem">Petrochemical & &nbsp;Lubricants</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/solar">Solar Techs & &nbsp;Services</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/itdiv">IT&nbsp;Division</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/realestate">Real&nbsp;Estate</Link></h1>
                 <div className="dropdown-submenu ">
                   <div className="flex items-center">
                     <h1 className="mx-1 p-2">sub&nbsp;services</h1>
                     <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                   </div>
                   <div className="dropdown-menu">
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Bank Insrtuments&nbsp;LC</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Loan & Project&nbsp;Finance</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">High Yield&nbsp;Investments</Link></h1>
                   </div>
                 </div>
               </div>
@@ -81,18 +82,19 @@ function Nav() {
             <div className="flex items-center my-2 p-1 w-max hover:text-red-500">
               <IoInformationCircleOutline className="text-xl" />
               <h1 className="ml-1 capitalize"> <Link to="/about">about</Link>
-                about</h1>
+                </h1>
             </div>
             <div className="flex items-center my-2 p-1 w-max hover:text-red-500">
               <MdContactPage className="text-lg" />
-              <h1 className="ml-1 capitalize">contact</h1>
+              <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link></h1>
             </div>
           </div>
         </div>
         <div className="hidden md:flex justify-evenly w-3/4 text-white lg:w-2/4 ">
           <div className="flex justify-center items-center hover:text-red-500">
             <IoHomeOutline />
-            <h1 className="ml-1 capitalize">home</h1>
+            <h1 className="ml-1 capitalize">
+              <Link to="/">Home</Link></h1>
           </div>
           <div className="dropdown">
             <div className="flex justify-center items-center hover:text-red-500">
@@ -107,7 +109,7 @@ function Nav() {
             <div className="dropdown-content lg:text-lg">
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/trade">General Trading&nbsp;</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Food&nbsp;& Beverages</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/food">Food&nbsp;& Beverages</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/petrochem">Petrochemicals &&nbsp;lubricants</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/solar">Solar technology &&nbsp;services</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/itdiv">IT&nbsp;Division</Link></h1>
@@ -131,11 +133,11 @@ function Nav() {
           </div>
           <div className="flex justify-center items-center hover:text-red-500">
             <IoInformationCircleOutline className="text-xl" />
-            <h1 className="ml-1 capitalize">about</h1>
+            <h1 className="ml-1 capitalize"><Link to="/about">About</Link></h1>
           </div>
           <div className="flex justify-center items-center hover:text-red-500">
             <MdContactPage className="text-lg" />
-            <h1 className="ml-1 capitalize">contact</h1>
+            <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link> </h1>
           </div>
         </div>
       </div>
