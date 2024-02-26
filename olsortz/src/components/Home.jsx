@@ -40,14 +40,14 @@ function Section1() {
 
       <div id="sec2" className="container mx-0 lg:w-[100%] p-10 xl:w-auto">
         <div className="flex  flex-wrap">
-          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-center justify-center p-4">
+          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4">
             <p className="text-md my-5 mb-6 xl:text-xl xl:mt-16">
               <span className=""> - </span> ABOUT US <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
               OIL & GAS INNOVATORS: DRIVING PROGRESSN IN THE INDUSTRY
             </h1>
-            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9">
+            <p className="text-md my-6 text-start xl:text-xl xl:mb-9">
               From exploration and production to transportation and refining, we
               offer a wide range of products and services that meet the unique
               needs of the oil & gas industry. Our commitment to excellence and
@@ -77,14 +77,14 @@ function Section1() {
               alt=""
             />
           </div>
-          <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-center justify-center p-4">
+          <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
             <p className="text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
               <span className=""> - </span> OUR BENEFITS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
               THE FUTURE OF OIL & GAS IS HERE
             </h1>
-            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9">
+            <p className="text-md my-6 text-start xl:text-xl xl:mb-9">
             The future of oil and gas brings with it unparalleled advancements in efficiency and sustainability. With cutting-edge technologies, we harness cleaner extraction methods, minimizing environmental impact. Enhanced data analytics optimize operations, ensuring safer and more cost-effective production. Embracing innovation, the future of oil and gas propels us towards a more sustainable energy landscape.
             </p>
             <a href={'/'} className="text-xl xl:text-3xl ">
@@ -96,12 +96,12 @@ function Section1() {
 
       <div id="sec4" className="container mx-0 lg:w-[100%] p-10 xl:w-auto">
         <div className="flex  flex-wrap">
-          <div className="h-auto w-full lg:w-1/2 text-center justify-center p-4">
+          <div className="h-auto w-full lg:w-1/2 text-start justify-start p-4">
             <p className="text-md my-5 mb-6 xl:text-xl xl:mt-7">
               <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
-            <p className="text-md my-6 text-justify xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
+            <p className="text-md my-6 text-start xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
             <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a>
           </div>
           <div className="h-auto w-full lg:w-1/2 flex xl:flex-grow">
@@ -114,9 +114,9 @@ function Section1() {
         </div>
       </div>
 
-      <div id='sec5' className="bg-gray-500">
+      <div id='sec5' className="bg-gray-500 py-8">
         <div className="text-center pt-5">
-          <p className="text-white md:text-lg lg:text-xl mb-3"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
+          <p className="text-white md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
           <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
         </div>
         <div className="flex flex-wrap gap-7 w-full justify-center pl-10 pt-10 pr-10 pb-4">
