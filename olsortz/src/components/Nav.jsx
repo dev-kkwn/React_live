@@ -77,7 +77,7 @@ function Nav() {
             </div>
             <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
               <MdGroups2 className="text-xl" />
-              <h1 className="ml-1 capitalize">who&nbsp;are&nbsp;we</h1>
+              <h1 className="ml-1 capitalize"><Link to="">who&nbsp;are&nbsp;we</Link></h1>
             </div>
             <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
               <IoInformationCircleOutline className="text-xl" />
@@ -129,7 +129,7 @@ function Nav() {
           </div>
           <div className="flex justify-center items-center hover:text-blue-500">
             <MdGroups2 className="text-xl" />
-            <h1 className="ml-1 capitalize">who&nbsp;are&nbsp;we</h1>
+            <h1 className="ml-1 capitalize"><Link to="/whoweare"> who&nbsp;are&nbsp;we</Link></h1>
           </div>
           <div className="flex justify-center items-center hover:text-blue-500">
             <IoInformationCircleOutline className="text-xl" />

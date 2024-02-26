@@ -14,6 +14,10 @@ import Trade from "./components/serv-trade";
 import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
 import Whoweare from "./components/Who-we-are";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95864eb0494541f783a8fe9c0fd7a88afe9c8826
 function App() {
   return (
     <>
@@ -21,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Section1 />} />
         <Route path="/about" exact element={<About />} />
+        <Route path="/whoweare" exact element={<Whoweare />} />
         <Route path="/contact" exact element={<ContactForm />} />
         <Route path="/services">
           <Route path="trade" exact element={<Trade />} />
@@ -33,7 +38,10 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+<<<<<<< HEAD
       {/* <Whoweare /> */}
+=======
+>>>>>>> 95864eb0494541f783a8fe9c0fd7a88afe9c8826
     </>
   );
 }
