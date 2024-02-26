@@ -46,7 +46,7 @@ function Section1() {
       <div id="sec2" className="p-5">
         <div className="flex  flex-wrap">
           <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-md my-5 mb-6 xl:text-xl xl:mt-16">
+            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
               <span className=""> - </span> ABOUT US <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
@@ -73,16 +73,8 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec3" className="p-5">
+      <div id="sec3" className="p-5 bg-black text-white">
         <div className="flex  flex-wrap">
-          <div className="h-auto w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-md my-5 mb-6 xl:text-xl xl:mt-7">
-              <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
-            </p>
-            <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
-            <p className="text-md my-6 text-start xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
-            <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a>
-          </div>
           <div className="p-5 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={futureimg}
@@ -90,6 +82,15 @@ function Section1() {
               alt="banner-3"
             />
           </div>
+          <div className="h-auto w-full lg:w-1/2 text-start justify-start p-4">
+            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7">
+              <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
+            </p>
+            <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
+            <p className="text-md my-6 text-start xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
+            <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a>
+          </div>
+
         </div>
       </div>
 
@@ -103,7 +104,7 @@ function Section1() {
             />
           </div>
           <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
+            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
               <span className=""> - </span> OUR BENEFITS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
@@ -119,9 +120,9 @@ function Section1() {
         </div>
       </div>
 
-      <div id='sec5' className="bg-gray-500 py-8">
+      <div id='sec5' className="bg-black text-white py-8">
         <div className="text-center pt-5">
-          <p className="text-white md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
+          <p className="text-blue-400 md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
           <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
         </div>
         <div className="flex flex-wrap gap-7 w-full justify-center pl-10 pt-10 pr-10 pb-4">
