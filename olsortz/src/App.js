@@ -11,6 +11,7 @@ import { Petrochem } from "./components/serv-petrochem";
 import { Solar } from "./components/serv-solar";
 import { Realestate } from "./components/serv-realestate";
 import Trade from "./components/serv-trade";
+import Whoweare from "./components/Who-we-are";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+      <Whoweare />
     </>
   );
 }

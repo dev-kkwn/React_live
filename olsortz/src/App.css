@@ -60,3 +60,7 @@ background-size: cover;
 background-repeat: no-repeat;
 position: relative;
 }
+
+.mainblur{
+  filter: blur(3px);
+}
