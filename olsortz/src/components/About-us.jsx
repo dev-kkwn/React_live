@@ -30,7 +30,7 @@ function About() {
                             <p className="uppercase text-2xl font-medium">quality</p>
                         </div>
                         <div className="m-3">
-                            <p className="">At OLSORTS, we are committed to revolutionizing the petrochemical industry through cutting-edge technologies, sustainable practices, and a relentless pursuit of excellence. With decades of experience and expertise, we have established ourselves as a global leader in the production and distribution of high-quality petrochemical products. so that we acheive a good relationship on our customers to maintain the trust.
+                            <p className="">At OLSORTZ, we are committed to revolutionizing the petrochemical industry through cutting-edge technologies, sustainable practices, and a relentless pursuit of excellence. With decades of experience and expertise, we have established ourselves as a global leader in the production and distribution of high-quality petrochemical products. so that we acheive a good relationship on our customers to maintain the trust.
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function About() {
                             <p className="uppercase text-2xl font-medium">goals</p>
                         </div>
                         <div className="m-3">
-                            <p className="">At OLSORTS, sustainability is not just a goal; it's a guiding principle that shapes everything we do. We are dedicated to minimizing our environmental footprint, reducing waste, conserving resources, and promoting responsible practices throughout our supply chain. By prioritizing sustainability, we aim to create a bright future for generations to come.
+                            <p className="">At OLSORTZ, sustainability is not just a goal; it's a guiding principle that shapes everything we do. We are dedicated to minimizing our environmental footprint, reducing waste, conserving resources, and promoting responsible practices throughout our supply chain. By prioritizing sustainability, we aim to create a bright future for generations to come.
                             </p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ function About() {
                             <p className="uppercase text-2xl font-medium">growth</p>
                         </div>
                         <div className="m-3">
-                            <p className="">As we continue to grow and innovate, we remain steadfast in our mission to drive positive change in the petrochemical industry while delivering value to our stakeholders. Thank you for choosing OLSORTS as your trusted partner in petrochemical solutions.
+                            <p className="">As we continue to grow and innovate, we remain steadfast in our mission to drive positive change in the petrochemical industry while delivering value to our stakeholders. Thank you for choosing OLSORTZ as your trusted partner in petrochemical solutions.
                             </p>
                         </div>
                     </div>

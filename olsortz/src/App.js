@@ -13,6 +13,8 @@ import { Realestate } from "./components/serv-realestate";
 import Trade from "./components/serv-trade";
 import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
+import Whoweare from "./components/Who-we-are";
+
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Section1 />} />
         <Route path="/about" exact element={<About />} />
+        <Route path="/whoweare" exact element={<Whoweare />} />
         <Route path="/contact" exact element={<ContactForm />} />
         <Route path="/services">
           <Route path="trade" exact element={<Trade />} />
@@ -32,7 +35,6 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-      <Whoweare />
     </>
   );
 }
