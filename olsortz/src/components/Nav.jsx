@@ -54,22 +54,23 @@ function Nav() {
               <div className="dropdown-content lg:text-lg">
                 <h1 className="dropdown-list m-1 p-2">services</h1>
                 <h1 className="dropdown-list m-1 p-2">
-                  <Link to="/services/metals">Precious Metals</Link>
+                  <Link to="/services/trade">General Trade</Link>
                 </h1>
                 <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/food">Food &&nbsp; Beverages</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/petrochem">Petrochemical & &nbsp;Lubricants</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/solar">Solar Techs & &nbsp;Services</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/itdiv">IT&nbsp;Division</Link></h1>
+                <h1 className="dropdown-list m-1 p-2"><Link to="/services/realestate">Real&nbsp;Estate</Link></h1>
                 <div className="dropdown-submenu ">
                   <div className="flex items-center">
                     <h1 className="mx-1 p-2">sub&nbsp;services</h1>
                     <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                   </div>
                   <div className="dropdown-menu">
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Bank Insrtuments&nbsp;LC</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Loan & Project&nbsp;Finance</Link></h1>
+                    <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">High Yield&nbsp;Investments</Link></h1>
                   </div>
                 </div>
               </div>
