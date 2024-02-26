@@ -64,10 +64,7 @@ position: relative;
 .mainblur{
   filter: blur(3px);
 }
-<<<<<<< HEAD
-=======
 
 .overview-content{
   border-right: solid black 3px;
 }
->>>>>>> 95864eb0494541f783a8fe9c0fd7a88afe9c8826
