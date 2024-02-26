@@ -107,7 +107,7 @@ function Nav() {
             <div className="dropdown-content lg:text-lg">
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/trade">General Trading&nbsp;</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Precious&nbsp;Metals</Link></h1>
-              <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Food&nbsp;& Beverages</Link></h1>
+              <h1 className="dropdown-list m-1 p-2"><Link to="/services/food">Food&nbsp;& Beverages</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/petrochem">Petrochemicals &&nbsp;lubricants</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/solar">Solar technology &&nbsp;services</Link></h1>
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/itdiv">IT&nbsp;Division</Link></h1>
@@ -131,11 +131,11 @@ function Nav() {
           </div>
           <div className="flex justify-center items-center hover:text-red-500">
             <IoInformationCircleOutline className="text-xl" />
-            <h1 className="ml-1 capitalize">about</h1>
+            <h1 className="ml-1 capitalize"><Link to="/about">About</Link></h1>
           </div>
           <div className="flex justify-center items-center hover:text-red-500">
             <MdContactPage className="text-lg" />
-            <h1 className="ml-1 capitalize">contact</h1>
+            <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link> </h1>
           </div>
         </div>
       </div>
