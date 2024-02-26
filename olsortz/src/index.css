@@ -30,7 +30,7 @@ code {
   position: absolute;
   border: 2px solid black;
   border-radius: 5px;
-  background: gray;
+  background: white;
   color: black;
   padding: 10px;
   z-index: 2;
@@ -41,7 +41,7 @@ code {
   position: absolute;
   border: 2px solid black;
   border-radius: 5px;
-  background: gray;
+  background: white;
   color: black;
   padding: 10px;
   left: 100%;
@@ -54,6 +54,11 @@ code {
 }
 
 .dropdown-submenu:hover,.dropdown-list:hover{
-  color: white;
+  color: #2196F3;
+}
+
+.top{
+  position: absolute;
+  top: 500px;
 }
 

@@ -13,6 +13,7 @@ import { Realestate } from "./components/serv-realestate";
 import Trade from "./components/serv-trade";
 import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
+import Whoweare from "./components/Who-we-are";
 function App() {
   return (
     <>
@@ -32,7 +33,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-      <Whoweare />
+      {/* <Whoweare /> */}
     </>
   );
 }
