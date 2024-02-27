@@ -52,7 +52,6 @@ function Nav() {
                 </div>
               </div>
               <div className="dropdown-content text-sm">
-                <h1 className="dropdown-list p-1">services</h1>
                 <h1 className="dropdown-list p-1">
                   <Link to="/services/trade">General Trade</Link>
                 </h1>
@@ -64,7 +63,7 @@ function Nav() {
                 <h1 className="dropdown-list p-1"><Link to="/services/realestate">Real&nbsp;Estate</Link></h1>
                 <div className="dropdown-submenu ">
                   <div className="flex items-center">
-                    <h1 className=" p-1">sub&nbsp;services</h1>
+                    <h1 className=" p-1">Financial&nbsp;Consultancy</h1>
                     <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                   </div>
                   <div className="dropdown-menu">
@@ -116,7 +115,7 @@ function Nav() {
               <h1 className="dropdown-list m-1 p-2"><Link to="/services/realestate">Real&nbsp;Estate</Link></h1>
               <div className="dropdown-submenu ">
                 <div className="flex items-center">
-                  <h1 className="mx-1 p-2">sub&nbsp;services</h1>
+                  <h1 className="mx-1 p-2">Financial&nbsp;Consultancy</h1>
                   <RiArrowDropDownLine className="text-xl mt-0.5 -rotate-90" />
                 </div>
                 <div className="dropdown-menu">
