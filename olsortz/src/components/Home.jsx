@@ -11,7 +11,9 @@ import lubeimg from "../assert/home-lube-img.jpg";
 import itimg from "../assert/home-it-img.jpg";
 import realestateimg from "../assert/home-realestate-img.jpg";
 import foodimg from "../assert/home-food-img.jpg";
-import { FaArrowRight } from "react-icons/fa";
+import { GiMedal, GiTrophyCup } from "react-icons/gi";
+import { MdGroups } from "react-icons/md";
+import { FaProjectDiagram, FaRProject } from "react-icons/fa";
 
 function Section1() {
   return (
@@ -59,9 +61,14 @@ function Section1() {
               customer satisfaction is reflected in our rigorous quality control
               processes.
             </p>
-            <a href={'/'} className="text-xl xl:text-3xl ">
+            {/* <a href={'/'} className="text-xl xl:text-3xl ">
               Learn More +
-            </a>
+            </a> */}
+            <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
+              <a href={'/'} className="text-xl xl:text-3xl ">
+                Learn More
+              </a>
+            </div>
           </div>
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -88,7 +95,12 @@ function Section1() {
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
             <p className="text-md my-6 text-start xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
-            <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a>
+            {/* <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a> */}
+            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+              <a href={'/'} className="text-xl xl:text-3xl ">
+                Learn More
+              </a>
+            </div>
           </div>
 
         </div>
@@ -113,9 +125,11 @@ function Section1() {
             <p className="text-md my-6 text-start xl:text-xl xl:mb-9">
               The future of oil and gas brings with it unparalleled advancements in efficiency and sustainability. With cutting-edge technologies, we harness cleaner extraction methods, minimizing environmental impact. Enhanced data analytics optimize operations, ensuring safer and more cost-effective production. Embracing innovation, the future of oil and gas propels us towards a more sustainable energy landscape.
             </p>
-            <a href={'/'} className="text-xl xl:text-3xl ">
-              Learn More +
-            </a>
+            <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
+              <a href={'/'} className="text-xl xl:text-3xl ">
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -216,7 +230,41 @@ function Section1() {
           </div>
         </div>
         <div className="text-center text-white text-sm font-bold p-7 pb-10">
-          <a href="" className="border border-white p-3 border-800 hover:bg-black transition-all duration-300"> DISCOVER OUR SERVICES </a>
+          <a href="" className="border rounded-full bg-blue-400  border-white p-3 border-800 hover:bg-white hover:text-black transition-all duration-300"> DISCOVER OUR SERVICES </a>
+        </div>
+      </div>
+
+      <div className="p-5">
+        <div className="text-4xl text-center capitalize font-bold"><p>topic of the content</p></div>
+        <div className="my-2 p-5 flex flex-wrap justify-around">
+          <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+            <p><GiMedal className="text-[60px] text-blue-600 " /></p>
+            <div className="flex flex-col items-start">
+              <p className="text-5xl font-medium">1500+</p>
+              <p className="text-lg capitalize ml-1">satisfied clinets</p>
+            </div>
+          </div>
+          <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
+            <p><GiTrophyCup className="text-[55px] text-blue-600 " /></p>
+            <div className="flex flex-col items-start">
+              <p className="text-5xl font-medium">175+</p>
+              <p className="text-lg capitalize ml-1">Winning awards</p>
+            </div>
+          </div>
+          <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+            <p><MdGroups className="text-[50px] text-blue-600 " /></p>
+            <div className="flex flex-col items-start">
+              <p className="text-5xl font-medium">150+</p>
+              <p className="text-lg capitalize ml-1">expert teams</p>
+            </div>
+          </div>
+          <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
+            <p><FaProjectDiagram className="text-[50px] text-blue-600 " /></p>
+            <div className="flex flex-col  ml-2 items-start">
+              <p className="text-5xl font-medium">200+</p>
+              <p className="text-lg capitalize ">active projects</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

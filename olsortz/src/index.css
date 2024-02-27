@@ -62,3 +62,14 @@ code {
   top: 500px;
 }
 
+.divine:hover{
+  background: black;
+  transition: ease 1s;
+}
+
+.boost:hover{
+  background: #2196F3;
+  transition: ease 1s;
+  color: white;
+  border-color: white;
+}
