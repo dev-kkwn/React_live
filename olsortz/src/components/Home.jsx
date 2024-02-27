@@ -13,16 +13,17 @@ import realestateimg from "../assert/home-realestate-img.jpg";
 import foodimg from "../assert/home-food-img.jpg";
 import { GiMedal, GiTrophyCup } from "react-icons/gi";
 import { MdGroups } from "react-icons/md";
-import { FaProjectDiagram, FaRProject } from "react-icons/fa";
+import { FaArrowRight, FaProjectDiagram, FaRProject } from "react-icons/fa";
+import { VscArrowSmallRight } from "react-icons/vsc";
 
 function Section1() {
   return (
     <section>
-      <div id="sec1" className="container h-[450px] md:h-[520px] xl:h-[600px]">
+      <div id="sec-1" className="container h-[450px] md:h-[520px] xl:h-[600px]">
         <div className="absolute">
           <img
             src={sec1banner}
-            className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500 rounded-b-[25px] md:rounded-b-[50px]"
+            className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
             alt="providing energy solutions"
           />
         </div>
@@ -34,27 +35,23 @@ function Section1() {
             <span className="lg:block">At OLSORTZ,</span> we're in the business
             of enhancing life's possibilities.
           </p>
-          <a href={'/'} className="border mt-9 p-2 text-sm md:text-lg xl:text-xl">
-            SEE HOW WE DO IT{" "}
-            <span className="h-2 p-1 rounded-md ml-4">1234</span>
-          </a>
-          {/* <div className="flex justify-around items-center border mt-9 p-2 text-sm md:text-lg xl:text-xl">
+          <div className="flex justify-around items-center w-max border mt-9 p-2 text-sm md:text-lg xl:text-xl">
             <p className="uppercase">see how we do it</p>
-            <FaArrowRight /> className="ml-3 backdrop-filter-none"/>
-          </div> */}
+            <FaArrowRight className="ml-3 backdrop-filter-none" />
+          </div>
         </div>
       </div>
 
-      <div id="sec2" className="p-5">
+      <div id="sec-2" className="p-5">
         <div className="flex  flex-wrap">
-          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4">
+          <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
             <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
               <span className=""> - </span> ABOUT US <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
               OIL & GAS INNOVATORS: DRIVING PROGRESSN IN THE INDUSTRY
             </h1>
-            <p className="text-md my-6 text-start xl:text-xl xl:mb-9">
+            <p className="text-md my-6 text-start xl:text-xl">
               From exploration and production to transportation and refining, we
               offer a wide range of products and services that meet the unique
               needs of the oil & gas industry. Our commitment to excellence and
@@ -65,39 +62,39 @@ function Section1() {
               Learn More +
             </a> */}
             <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
-              <a href={'/'} className="text-xl xl:text-3xl ">
+              <a href={'/'} className="text-lg">
                 Learn More
               </a>
             </div>
           </div>
-          <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+          <div className="p-5 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={aboutimg1}
-              className="md:rounded-3xl lg:rounded-se-[200px] lg:rounded-es-[200px] object-cover "
+              className="rounded-3xl object-cover"
               alt="power & future"
             />
           </div>
         </div>
       </div>
 
-      <div id="sec3" className="p-5 bg-black text-white">
+      <div id="sec-3" className="p-5 bg-blue-100 text-black">
         <div className="flex  flex-wrap">
-          <div className="p-5 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+          <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={futureimg}
               className="md:rounded-3xl object-cover "
               alt="banner-3"
             />
           </div>
-          <div className="h-auto w-full lg:w-1/2 text-start justify-start p-4">
+          <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
             <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7">
               <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
-            <p className="text-md my-6 text-start xl:text-xl xl:mb-9"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
+            <p className="text-md my-6 text-start xl:text-xl"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
             {/* <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a> */}
             <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
-              <a href={'/'} className="text-xl xl:text-3xl ">
+              <a href={'/'} className="text-xl">
                 Learn More
               </a>
             </div>
@@ -105,13 +102,16 @@ function Section1() {
 
         </div>
       </div>
-      <div className="p-5">
+
+      <div id="sec-4" className="p-5">
         <div>
           <div className="text-center">
-            <p className="text-3xl md:text-3xl lg:text-5xl font-medium capitalize">our team</p>
+            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
+              <span className=""> - </span> OUR teams <span> - </span>
+            </p>
           </div>
           <div className="my-4">
-            <p className="text-xl lg:text-3xl capitalize text-center font-medium my-4">this is why industry our team is so famous</p>
+            <p className="uppercase text-center text-3xl font-bold xl:text-4xl my-4">this is why industry our team is so famous</p>
             <div className="flex flex-wrap justify-evenly">
               <div className="w-96 m-1">
                 <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-1" />
@@ -138,7 +138,7 @@ function Section1() {
           </div>
         </div>
         <div className="pt-4">
-          <div className="text-3xl md:text-4xl text-center capitalize font-medium"><p>our accomplishments</p></div>
+          <div className="uppercase text-center text-3xl font-bold xl:text-4xl"><p>our accomplishments</p></div>
           <div className="my-2 p-5 flex flex-wrap justify-around">
             <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
               <p><GiMedal className="text-[60px] text-blue-600 " /></p>
@@ -172,7 +172,54 @@ function Section1() {
         </div>
       </div>
 
-      <div id='sec5' className="bg-black text-white py-8">
+      <div id="sec-5" className="p-5 bg-blue-100 text-black">
+        <div className="flex  flex-wrap">
+          <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+            <img
+              src={"https://www.itilite.com/wp-content/uploads/2024/01/Maximizing-Business-Travel-Benefits-with-ITILITEs-Travel-Technology-Integration-1024x538-1.png"}
+              className="md:rounded-3xl object-cover "
+              alt="banner-3"
+            />
+          </div>
+          <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
+            <p className="text-blue-400 uppercase text-md my-5 mb-6 xl:text-xl xl:mt-7">
+              <span className=""> - </span> technologies <span> - </span>
+            </p>
+            <h1 className="text-3xl uppercase font-bold mt-1 xl:text-4xl"> specializes your technologies </h1>
+            <div className="text-md my-6 text-start xl:text-xl">
+              <div className="my-4 flex flex-wrap md:max-2xl:flex-nowrap">
+                <div className="flex">
+                  <div className="flex">
+                    <GiTrophyCup className="text-[50px] mt-2" />
+                  </div>
+                  <div className="ml-2">
+                    <p className="capitalize text-xl font-medium">heading</p>
+                    <p className="text-lg text-slate-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, esse explicabo voluptatem saepe reiciendis ipsam eveniet aspernatur nostrum.</p>
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex">
+                    <GiTrophyCup className="text-[50px] mt-2" />
+                  </div>
+                  <div className="ml-2">
+                    <p className="capitalize text-xl font-medium">heading</p>
+                    <p className="text-lg text-slate-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, esse explicabo voluptatem saepe reiciendis ipsam eveniet aspernatur nostrum.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+              <a href={'/'} className="text-xl">
+                Learn More
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id='sec-6' className="bg-black text-white py-8">
         <div className="text-center pt-5">
           <p className="text-blue-400 md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
           <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
@@ -272,12 +319,12 @@ function Section1() {
         </div> */}
       </div>
 
-      <div id="sec4" className="p-5">
+      <div id="sec-7" className="p-5">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={benefitsimg}
-              className="lg:rounded-ss-[100px] lg:rounded-se-[100px] lg:rounded-ee-[100px] object-cover"
+              className="rounded-3xl object-cover"
               alt="benefits"
             />
           </div>
@@ -288,19 +335,17 @@ function Section1() {
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
               THE FUTURE OF OIL & GAS IS HERE
             </h1>
-            <p className="text-md my-6 text-start xl:text-xl xl:mb-9">
+            <p className="text-md my-6 text-start xl:text-xl">
               The future of oil and gas brings with it unparalleled advancements in efficiency and sustainability. With cutting-edge technologies, we harness cleaner extraction methods, minimizing environmental impact. Enhanced data analytics optimize operations, ensuring safer and more cost-effective production. Embracing innovation, the future of oil and gas propels us towards a more sustainable energy landscape.
             </p>
             <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
-              <a href={'/'} className="text-xl xl:text-3xl ">
+              <a href={'/'} className="text-lg">
                 Learn More
               </a>
             </div>
           </div>
         </div>
       </div>
-
-
     </section>
   );
 }
