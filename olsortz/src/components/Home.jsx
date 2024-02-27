@@ -147,7 +147,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">IMPORT AND EXPORT</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7"> GOLD & PRECIOUS METALS </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">FOOD & BEVERAGES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col p-6 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">INFORMATION TECHNOLOGY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">FINANCIAL CONSULTANCY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -202,7 +202,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">REAL ESTATE CONSULTANCY </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">SOLAR TECHNOLOGIES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>
@@ -224,7 +224,7 @@ function Section1() {
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
                 <h1 class=" text-white text-xl font-semibold pb-7">PETROCHEMICALS & LUBRICANTS</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More +</a>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
               </div>
             </div>
           </div>

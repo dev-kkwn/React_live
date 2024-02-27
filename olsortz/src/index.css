@@ -64,12 +64,12 @@ code {
 
 .divine:hover{
   background: black;
-  transition: ease 1s;
+  transition: ease 500ms;
 }
 
 .boost:hover{
   background: #2196F3;
-  transition: ease 1s;
+  transition: ease 500ms;
   color: white;
   border-color: white;
 }
