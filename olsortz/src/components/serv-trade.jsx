@@ -1,15 +1,14 @@
 import React from "react";
-
+import tradebanner from "../assests/trade-banner.jpg";
+import trade1 from "../assests/trade1.jpg";
+import trade2 from "../assests/trade2.jpg";
+import trade3 from "../assests/trade3.jpg";
 const Trade = () => {
   return (
     <div>
       <div className="container ">
         <div className="top-36 ">
-          <img
-            className="w-full h-80"
-            src="https://img.freepik.com/free-photo/aerial-view-container-cargo-ship-sea_335224-720.jpg?t=st=1708843092~exp=1708846692~hmac=6229c0b40d3082ae2dcdb8ae1a29e9edadfb9900b5c3e29f5ed2bc76751629ce&w=1060 "
-            alt=""
-          />
+          <img className="w-full h-80" src={tradebanner} alt="" />
         </div>
 
         <div className="absolute top-36">
@@ -22,7 +21,7 @@ const Trade = () => {
         <div className="w-full   lg:w-1/2 p-10">
           <img
             className="max-h-80 w-full top-9 rounded-l-2xl"
-            src="https://img.freepik.com/free-photo/international-container-cargo-ship-harborfreight-transportation-shipping-ai-generative_123827-23695.jpg?t=st=1708845358~exp=1708848958~hmac=bc1c66bdc684b9c7301e675bf59fc324021915945c8c42a7b2fb469365dfcfc3&w=1060 "
+            src={trade1}
             alt="img"
           />
         </div>
@@ -80,7 +79,7 @@ const Trade = () => {
         <div className="w-full   lg:w-1/2 p-10">
           <img
             className="max-h-72 w-full rounded-r-2xl"
-            src="https://img.freepik.com/free-photo/busy-shipping-port-with-containers-trade-action_91128-4581.jpg?t=st=1708845764~exp=1708849364~hmac=d477f8f51247a53b99f975728bb88c8dce79071c5fec68314ea039efc28cef6b&w=1380"
+            src={trade2}
             alt="img"
           />
         </div>
@@ -90,7 +89,7 @@ const Trade = () => {
         <div className="w-full   lg:w-1/2 p-10">
           <img
             className="max-h-72 w-full rounded-l-2xl  object-cover"
-            src="https://img.freepik.com/free-photo/industrial-port-container-yard_1112-1200.jpg?t=st=1708845844~exp=1708849444~hmac=170915749f3254653d8955f802fc68e8a6b2eb03e6947d442895cc68c1ed3b0f&w=996 "
+            src={trade3}
             alt="img"
           />
         </div>

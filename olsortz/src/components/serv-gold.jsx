@@ -5,7 +5,7 @@ export function Gold() {
   return (
     <>
       <section className="">
-        <div className="context-kk-banner md:flex justify-start items-center w-full">   
+        <div className="context-kk-banner md:flex justify-start items-center w-full">
           <div className="context md:m-10 h-80 w-full">
             <div className="text w-72  md:my-10 md:mx-10">
               <h1 className="text-3xl font-bold">
@@ -22,27 +22,40 @@ export function Gold() {
         <div className="intro-bang p-3 md:p-4">
           <div className="flex flex-wrap justify-evenly md:px-5">
             <div className="part-1 w-full md:mx-5">
-              <h1 className="text-2xl my-2 font-semibold">Inherent Value and Global Demand</h1>
-              Precious metals like gold, silver, platinum, and palladium hold
-              inherent value due to their rarity, beauty, and utility across
-              various industries. They are globally accepted as a store of value
-              and are sought after by investors worldwide.
+              <h1 className="text-2xl my-2 font-semibold">
+                Inherent Value and Global Demand
+              </h1>
+              <p className="text-lg">
+                Precious metals like gold, silver, platinum, and palladium hold
+                inherent value due to their rarity, beauty, and utility across
+                various industries. They are globally accepted as a store of
+                value and are sought after by investors worldwide.
+              </p>
             </div>
             <div className="part-2 md:mx-5">
-              <h1 className="text-2xl my-2 font-semibold">Diverse Investment Options and Safe-Haven Status</h1>
-              Investors have access to a variety of investment vehicles for
-              precious metals, including physical bullion, ETFs, mining stocks,
-              and futures contracts. Precious metals are often seen as
-              safe-haven assets, providing stability and wealth preservation
-              during times of economic uncertainty or geopolitical instability.
+              <h1 className="text-2xl my-2 font-semibold">
+                Diverse Investment Options and Safe-Haven Status
+              </h1>
+              <p className="text-lg">
+                Investors have access to a variety of investment vehicles for
+                precious metals, including physical bullion, ETFs, mining
+                stocks, and futures contracts. Precious metals are often seen as
+                safe-haven assets, providing stability and wealth preservation
+                during times of economic uncertainty or geopolitical
+                instability.
+              </p>
             </div>
             <div className="part-3 md:mx-5">
-              <h1 className="text-2xl my-2 font-semibold">Industrial Applications, Limited Supply</h1>
-              Precious metals play crucial roles in industries such as
-              electronics, automotive, and healthcare due to their unique
-              properties. Despite their industrial demand, precious metals have
-              limited natural supplies, which contributes to their enduring
-              value and attractiveness as investments.
+              <h1 className="text-2xl my-2 font-semibold">
+                Industrial Applications, Limited Supply
+              </h1>
+              <p className="text-lg">
+                Precious metals play crucial roles in industries such as
+                electronics, automotive, and healthcare due to their unique
+                properties. Despite their industrial demand, precious metals
+                have limited natural supplies, which contributes to their
+                enduring value and attractiveness as investments.
+              </p>
             </div>
           </div>
         </div>
@@ -53,17 +66,17 @@ export function Gold() {
               <h1 className="text-3xl font-bold">
                 Core Values and Commitments
               </h1>
-              <p className="my-5 text-lg">
+              <p className="my-5 text-xl">
                 In addition to innovation, integrity, and excellence, emphasize
                 the company's dedication to safety as a top priority in all
                 operations.
               </p>
-              <p className="my-5 text-lg">
+              <p className="my-5 text-xl">
                 Discuss the company's long-term vision for sustainability,
                 aiming to become a leader in environmentally friendly practices
                 within the precious metals industry.
               </p>
-              <p className="my-5 text-lg">
+              <p className="my-5 text-xl">
                 Highlight the company's role as a responsible corporate citizen,
                 actively contributing to the communities in which it operates
                 through philanthropic initiatives and partnerships.
@@ -89,17 +102,17 @@ export function Gold() {
               <h1 className="text-3xl font-bold">
                 Operational Excellence and Sustainability
               </h1>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Detail specific initiatives undertaken by the company to reduce
                 its carbon footprint, such as energy-efficient processes, waste
                 reduction programs, and recycling efforts.
               </p>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Showcase partnerships with sustainability-focused organizations
                 or certifications obtained, demonstrating the company's
                 commitment to environmental stewardship.
               </p>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Provide examples of innovative technologies or methodologies
                 implemented in refining processes, showcasing the company's
                 leadership in sustainable practices.
@@ -109,24 +122,28 @@ export function Gold() {
           <div className="main-part-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center md:flex md:justify-around md:items-center w-full md:my-5">
             <div className="pm-3 w-full lg:p-5 md:w-2/4 flex flex-col items-center">
               <h1 className="text-3xl font-bold">Customer-Centric Approach</h1>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Highlight testimonials or case studies from satisfied customers,
                 illustrating how the company's personalized solutions have
                 positively impacted their businesses.
               </p>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Discuss ongoing efforts to enhance the customer experience, such
                 as streamlined ordering processes, responsive customer support,
                 or value-added services.
               </p>
-              <p className="md:max-lg:my-2 lg:my-5 text-lg">
+              <p className="md:max-lg:my-2 lg:my-5 text-xl">
                 Offer insights into the company's dedication to continuous
                 improvement based on customer feedback, showcasing a commitment
                 to evolving alongside the needs of its clientele
               </p>
             </div>
             <div className="pm-img ">
-              <img src={precious3} alt="image3" className="h-96 rounded-none md:rounded-3xl" />
+              <img
+                src={precious3}
+                alt="image3"
+                className="h-96 rounded-none md:rounded-3xl"
+              />
             </div>
           </div>
         </div>

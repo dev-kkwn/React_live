@@ -61,10 +61,6 @@ background-repeat: no-repeat;
 position: relative;
 }
 
-.mainblur{
-  filter: blur(3px);
-}
-
 .overview-content{
   border-right: solid black 3px;
 }

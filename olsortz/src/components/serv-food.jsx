@@ -1,5 +1,7 @@
 import React from "react";
-
+import food1 from "../assests/food1.jpg";
+import food2 from "../assests/food2.jpg";
+import food3 from "../assests/food3.jpg";
 const Food = () => {
   return (
     <div>
@@ -13,7 +15,7 @@ const Food = () => {
         </div>
 
         <div className="absolute top-36">
-          <h1 className="text-2xl text-yellow-500 pl-10">
+          <h1 className="text-4xl text-yellow-500 pl-10">
             Food & Beverages Trading
           </h1>
         </div>
@@ -24,7 +26,7 @@ const Food = () => {
         <div className="w-full   lg:w-1/2 p-10 ">
           <img
             className="max-h-96 w-full "
-            src="https://img.freepik.com/free-photo/side-view-from-afar-fruits-wooden-basket-grapes-apples-persimmons-citrus-fruits_140725-123133.jpg?t=st=1708835971~exp=1708839571~hmac=b1d2f560a352bd42b009d66bbd5a16b11f5beade1da3f47160318145299b3c11&w=1060 "
+            src={ food1}
             alt="img"
           />
         </div>
@@ -90,7 +92,7 @@ const Food = () => {
         <div className="w-full   lg:w-1/2 p-10">
           <img
             className="max-h-80 w-full"
-            src="https://img.freepik.com/free-photo/close-up-healthy-nuts-wooden-background-generative-ai_188544-9100.jpg?t=st=1708838783~exp=1708842383~hmac=5bedd3a45afca6a7d7803c7df74dab185e5ed55bc3034d9dee918703089d42b1&w=1380"
+            src={food2}
             alt="img"
           />
         </div>
@@ -100,7 +102,7 @@ const Food = () => {
         <div className="w-full   lg:w-1/2 p-10">
           <img
             className="max-h-96 lg:1/2 w-full"
-            src="https://img.freepik.com/free-photo/fresh-organic-vegetables-blue-organic-tabletop_23-2147956568.jpg?t=st=1708851315~exp=1708854915~hmac=bd816b84d0490da31effb08b4ff86df928fd0177df11a07022b99cbf8be967b7&w=1060 "
+            src={food3}
             alt="img"
           />
         </div>
