@@ -37,12 +37,12 @@ function Nav() {
                 />
               </div>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
+            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
               <IoHomeOutline />
               <h1 className="ml-1 capitalize"><Link to="/">Home</Link></h1>
             </div>
             <div className="dropdown w-max">
-              <div className="flex items-center my-2 p-1  hover:text-blue-500">
+              <div className="flex items-center my-2 p-1  hover:text-blue-400">
                 <div className="flex items-center">
                   <FaServicestack />
                   <h1 className="ml-1 capitalize">services</h1>
@@ -75,29 +75,29 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
+            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
               <MdGroups2 className="text-xl" />
               <h1 className="ml-1 capitalize"><Link to="">who&nbsp;are&nbsp;we</Link></h1>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
+            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
               <IoInformationCircleOutline className="text-xl" />
               <h1 className="ml-1 capitalize"> <Link to="/about">about</Link>
                 </h1>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-500">
+            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
               <MdContactPage className="text-lg" />
               <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link></h1>
             </div>
           </div>
         </div>
         <div className="hidden md:flex justify-evenly w-3/4 text-white lg:w-2/4 ">
-          <div className="flex justify-center items-center hover:text-blue-500">
+          <div className="flex justify-center items-center hover:text-blue-400">
             <IoHomeOutline />
             <h1 className="ml-1 capitalize">
               <Link to="/">Home</Link></h1>
           </div>
           <div className="dropdown">
-            <div className="flex justify-center items-center hover:text-blue-500">
+            <div className="flex justify-center items-center hover:text-blue-400">
               <div className="flex items-center">
                 <FaServicestack />
                 <h1 className="ml-1 capitalize">services</h1>
@@ -127,15 +127,15 @@ function Nav() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-500">
+          <div className="flex justify-center items-center hover:text-blue-400">
             <MdGroups2 className="text-xl" />
             <h1 className="ml-1 capitalize"><Link to="/whoweare"> who&nbsp;are&nbsp;we</Link></h1>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-500">
+          <div className="flex justify-center items-center hover:text-blue-400">
             <IoInformationCircleOutline className="text-xl" />
             <h1 className="ml-1 capitalize"><Link to="/about">About</Link></h1>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-500">
+          <div className="flex justify-center items-center hover:text-blue-400">
             <MdContactPage className="text-lg" />
             <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link> </h1>
           </div>
