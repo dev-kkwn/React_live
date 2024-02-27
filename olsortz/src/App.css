@@ -61,9 +61,7 @@ background-repeat: no-repeat;
 position: relative;
 }
 
-.mainblur{
-  filter: blur();
-}
+
 
 .overview-content{
   border-right: solid black 3px;
