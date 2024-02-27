@@ -73,7 +73,7 @@ function Section1() {
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={aboutimg1}
-              className="md:rounded-3xl lg:rounded-se-full object-cover "
+              className="md:rounded-3xl lg:rounded-se-[200px] lg:rounded-es-[200px] object-cover "
               alt="power & future"
             />
           </div>
@@ -105,17 +105,183 @@ function Section1() {
 
         </div>
       </div>
+      <div className="p-5">
+        <div>
+          <div className="text-center">
+            <p className="text-3xl md:text-3xl lg:text-5xl font-medium capitalize">our team</p>
+          </div>
+          <div className="my-4">
+            <p className="text-xl lg:text-3xl capitalize text-center font-medium my-4">this is why industry our team is so famous</p>
+            <div className="flex flex-wrap justify-evenly">
+              <div className="w-96 m-1">
+                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-1" />
+                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                  <p className="text-xl font-bold capitalize">name of the member</p>
+                  <p className="text-lg">working position</p>
+                </div>
+              </div>
+              <div className="w-96 m-1">
+                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-2" />
+                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                  <p className="text-xl font-bold capitalize">name of the member</p>
+                  <p className="text-lg">working position</p>
+                </div>
+              </div>
+              <div className="w-96 m-1">
+                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-3" />
+                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                  <p className="text-xl font-bold capitalize">name of the member</p>
+                  <p className="text-lg">working position</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="pt-4">
+          <div className="text-3xl md:text-4xl text-center capitalize font-medium"><p>our accomplishments</p></div>
+          <div className="my-2 p-5 flex flex-wrap justify-around">
+            <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+              <p><GiMedal className="text-[60px] text-blue-600 " /></p>
+              <div className="flex flex-col items-start">
+                <p className="text-5xl font-medium">1500+</p>
+                <p className="text-lg capitalize ml-1">satisfied clinets</p>
+              </div>
+            </div>
+            <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
+              <p><GiTrophyCup className="text-[55px] text-blue-600 " /></p>
+              <div className="flex flex-col items-start">
+                <p className="text-5xl font-medium">175+</p>
+                <p className="text-lg capitalize ml-1">Winning awards</p>
+              </div>
+            </div>
+            <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+              <p><MdGroups className="text-[50px] text-blue-600 " /></p>
+              <div className="flex flex-col items-start">
+                <p className="text-5xl font-medium">150+</p>
+                <p className="text-lg capitalize ml-1">expert teams</p>
+              </div>
+            </div>
+            <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
+              <p><FaProjectDiagram className="text-[50px] text-blue-600 " /></p>
+              <div className="flex flex-col  ml-2 items-start">
+                <p className="text-5xl font-medium">200+</p>
+                <p className="text-lg capitalize ">active projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id='sec5' className="bg-black text-white py-8">
+        <div className="text-center pt-5">
+          <p className="text-blue-400 md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
+          <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
+        </div>
+        <div className="flex flex-wrap gap-x-20 gap-y-10 w-full justify-center pl-10 pt-10 pr-10 pb-4">
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={impimg} alt="import & export" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">IMPORT AND EXPORT</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={goldimg} alt="gold & precious metals" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7"> GOLD & PRECIOUS METALS </h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={foodimg} alt="food & beverages" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">FOOD & BEVERAGES</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={itimg} alt="information technology" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col p-6 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">INFORMATION TECHNOLOGY</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={fcimg} alt="financial consultancy" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">FINANCIAL CONSULTANCY</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={realestateimg} alt="olsortz" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">REAL ESTATE CONSULTANCY </h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={solarimg} alt="solar technologies" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">SOLAR TECHNOLOGIES</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-60 h-fit group">
+            <div class="relative overflow-hidden rounded-2xl">
+              <img class="h-96 w-full object-cover" src={lubeimg} alt="petrochemicals & lubricants" />
+              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <p class=" text-white text-sm pb-2">Olsortz</p>
+                <h1 class=" text-white text-xl font-semibold pb-7">PETROCHEMICALS & LUBRICANTS</h1>
+                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="text-center text-white text-sm font-bold p-7 pb-10">
+          <a href="" className="border rounded-full bg-blue-400  border-white p-3 border-800 hover:bg-white hover:text-black transition-all duration-300"> DISCOVER OUR SERVICES </a>
+        </div> */}
+      </div>
 
       <div id="sec4" className="p-5">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
               src={benefitsimg}
-              className="md:rounded-3xl lg:rounded-ee-full object-cover "
+              className="lg:rounded-ss-[100px] lg:rounded-se-[100px] lg:rounded-ee-[100px] object-cover"
               alt="benefits"
             />
           </div>
-          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4">
+          <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4 ">
             <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
               <span className=""> - </span> OUR BENEFITS <span> - </span>
             </p>
@@ -134,139 +300,7 @@ function Section1() {
         </div>
       </div>
 
-      <div id='sec5' className="bg-black text-white py-8">
-        <div className="text-center pt-5">
-          <p className="text-blue-400 md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
-          <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
-        </div>
-        <div className="flex flex-wrap gap-7 w-full justify-center pl-10 pt-10 pr-10 pb-4">
 
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={impimg} alt="import & export" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">IMPORT AND EXPORT</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={goldimg} alt="gold & precious metals" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7"> GOLD & PRECIOUS METALS </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={foodimg} alt="food & beverages" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">FOOD & BEVERAGES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={itimg} alt="information technology" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col p-6 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">INFORMATION TECHNOLOGY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={fcimg} alt="financial consultancy" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">FINANCIAL CONSULTANCY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={realestateimg} alt="olsortz" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">REAL ESTATE CONSULTANCY </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={solarimg} alt="solar technologies" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">SOLAR TECHNOLOGIES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-72 h-fit group">
-            <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={lubeimg} alt="petrochemicals & lubricants" />
-              <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">PETROCHEMICALS & LUBRICANTS</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="text-center text-white text-sm font-bold p-7 pb-10">
-          <a href="" className="border rounded-full bg-blue-400  border-white p-3 border-800 hover:bg-white hover:text-black transition-all duration-300"> DISCOVER OUR SERVICES </a>
-        </div>
-      </div>
-
-      <div className="p-5">
-        <div className="text-4xl text-center capitalize font-bold"><p>topic of the content</p></div>
-        <div className="my-2 p-5 flex flex-wrap justify-around">
-          <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
-            <p><GiMedal className="text-[60px] text-blue-600 " /></p>
-            <div className="flex flex-col items-start">
-              <p className="text-5xl font-medium">1500+</p>
-              <p className="text-lg capitalize ml-1">satisfied clinets</p>
-            </div>
-          </div>
-          <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
-            <p><GiTrophyCup className="text-[55px] text-blue-600 " /></p>
-            <div className="flex flex-col items-start">
-              <p className="text-5xl font-medium">175+</p>
-              <p className="text-lg capitalize ml-1">Winning awards</p>
-            </div>
-          </div>
-          <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
-            <p><MdGroups className="text-[50px] text-blue-600 " /></p>
-            <div className="flex flex-col items-start">
-              <p className="text-5xl font-medium">150+</p>
-              <p className="text-lg capitalize ml-1">expert teams</p>
-            </div>
-          </div>
-          <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
-            <p><FaProjectDiagram className="text-[50px] text-blue-600 " /></p>
-            <div className="flex flex-col  ml-2 items-start">
-              <p className="text-5xl font-medium">200+</p>
-              <p className="text-lg capitalize ">active projects</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
