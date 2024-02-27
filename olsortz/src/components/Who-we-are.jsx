@@ -39,8 +39,8 @@ function Whoweare() {
             This is your sample header that goes here.... glimpse of who we are
           </h1>
         </div>
-        <div className="overview-approach flex items-center p-10 bg-blue-300">
-          <div className="overview-content px-5">
+        <div className="overview-approach md:flex md:items-center md:p-5 lg:p-10 bg-blue-300">
+          <div className="overview-content px-2 lg:px-5">
             <div className="idcon flex items-center">
               <h1 className="mx-2 text-3xl my-3">OverView</h1>
               <FaEye className="text-3xl" />
@@ -52,7 +52,7 @@ function Whoweare() {
               cupiditate molestiae dignissimos perspiciatis. Voluptate, vitae?
             </p>
           </div>
-          <div className="approach-centent px-5">
+          <div className="approach-centent px-2 lg:px-5">
             <div className="idcon flex items-center">
               <h1 className="mx-2 text-3xl my-3">Approach</h1>
               <FaHeadSideVirus className="text-3xl" />
@@ -67,10 +67,10 @@ function Whoweare() {
         </div>
 
         <div className="results">
-          <div className="result-container flex flex-col items-center p-5">
+          <div className="result-container flex flex-col items-center lg:p-5">
             <h1 className="text-5xl text-blue-600 my-5">Results</h1>
-            <div className="result-stat flex justify-evenly items-center">
-              <div className="result-part-1 flex flex-col items-center p-7">
+            <div className="result-stat md:flex md:justify-evenly md:items-center">
+              <div className="result-part-1 flex flex-col items-center p-2 lg:p-7">
                 <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
                   <FaTag />
                 </div>
@@ -81,7 +81,7 @@ function Whoweare() {
                   illo minima? Doloremque doloribus delectus consequuntur!
                 </div>
               </div>
-              <div className="result-part-2 flex flex-col items-center p-7">
+              <div className="result-part-2 flex flex-col items-center p-2 lg:p-7">
                 <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
                   <FaTag />
                 </div>
@@ -92,7 +92,7 @@ function Whoweare() {
                   illo minima? Doloremque doloribus delectus consequuntur!
                 </div>
               </div>
-              <div className="result-part-3 flex flex-col items-center p-7">
+              <div className="result-part-3 flex flex-col items-center p-2 lg:p-7">
                 <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
                   <FaTag />
                 </div>
