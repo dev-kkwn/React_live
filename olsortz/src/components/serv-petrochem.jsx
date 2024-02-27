@@ -40,7 +40,7 @@ export function Petrochem() {
           </h1>
         </div>
         <div className="p-4 mb-5 md:px-14 lg:px-32 lg:leading-relaxed xl:px-40 font-sans ">
-          <p className="font-[500]lg:text=lg opacity-90">
+          <p className="font-[500]lg:text=lg opacity-90 text-lg">
             Capgemini helps you use digital technologies to unlock the potential
             of your physical and digital worlds. We help you look at what you
             already have in a different light, revolutionizing and securing

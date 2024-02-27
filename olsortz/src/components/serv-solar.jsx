@@ -11,7 +11,7 @@ export function Solar() {
               <h1 className="text-3xl font-bold">
                 Gold & Precious Metals Trading
               </h1>
-              <p className="text-lg text-white font-bold my-5">
+              <p className="text-lg text-black font-bold my-5">
                 OLSORTZ is deals with customers who were seeking a destination
                 for purchasing gold & precious metals in an environment focused
                 on security and service.
