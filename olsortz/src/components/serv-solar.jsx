@@ -4,7 +4,7 @@ import precious3 from "../assert/solar-panel.jpg";
 export function Solar() {
   return (
     <>
-      <section className="p-0 md:p-10 ">
+      <section className="">
         <div className="context-kk-solar-banner md:flex justify-start items-center w-full">   
           <div className="context md:m-10 h-80 w-full">
             <div className="text w-72  md:my-10 md:mx-10">

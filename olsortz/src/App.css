@@ -62,7 +62,7 @@ position: relative;
 }
 
 .mainblur{
-  filter: blur(3px);
+  filter: blur();
 }
 
 .overview-content{
