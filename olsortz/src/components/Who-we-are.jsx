@@ -26,7 +26,7 @@ function Whoweare() {
             </p>
             <div className="flex">
               <div className="border border-black w-max m-3 ml-0 p-3 rounded-l-2xl hover:backdrop-blur-2xl hover:bg-white/30">
-                <p className="text-xl font-medium">this is a button</p>
+                <p className="text-xl font-medium">carousal</p>
               </div>
               <div className="border border-black w-max m-3 ml-0 p-3 rounded-r-2xl  hover:backdrop-blur-2xl hover:bg-white/30">
                 <p className="text-xl font-medium">contact</p>
@@ -66,43 +66,58 @@ function Whoweare() {
           </div>
         </div>
 
-        <div className="results">
-          <div className="result-container flex flex-col items-center lg:p-5">
-            <h1 className="text-5xl text-blue-600 my-5">Results</h1>
-            <div className="result-stat md:flex md:justify-evenly md:items-center">
-              <div className="result-part-1 flex flex-col items-center p-2 lg:p-7">
-                <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
-                  <FaTag />
-                </div>
-                <div className="result-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam obcaecati nobis magnam placeat, dolorem sequi qui
-                  saepe reiciendis fugiat? Sed voluptatibus, nobis fuga ratione
-                  illo minima? Doloremque doloribus delectus consequuntur!
+        <div className="p-5">
+          <div className="text-center">
+            <p className="text-5xl capitalize">main content</p>
+          </div>
+          <div className="flex flex-wrap justify-evenly gap-x-5 md:p-2 my-5">
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
                 </div>
               </div>
-              <div className="result-part-2 flex flex-col items-center p-2 lg:p-7">
-                <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
-                  <FaTag />
-                </div>
-                <div className="result-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam obcaecati nobis magnam placeat, dolorem sequi qui
-                  saepe reiciendis fugiat? Sed voluptatibus, nobis fuga ratione
-                  illo minima? Doloremque doloribus delectus consequuntur!
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
+            </div>
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
                 </div>
               </div>
-              <div className="result-part-3 flex flex-col items-center p-2 lg:p-7">
-                <div className="result-icon bg-blue-600 p-7 rounded-full text-white text-4xl my-5">
-                  <FaTag />
-                </div>
-                <div className="result-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam obcaecati nobis magnam placeat, dolorem sequi qui
-                  saepe reiciendis fugiat? Sed voluptatibus, nobis fuga ratione
-                  illo minima? Doloremque doloribus delectus consequuntur!
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
+            </div>
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
                 </div>
               </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
+            </div>
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
+                </div>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
+            </div>
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
+                </div>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
+            </div>
+            <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
+              <div className="flex justify-center mb-5">
+                <div className="bg-blue-500 p-4 rounded-full">
+                  <FaTag className="text-5xl w-max" />
+                </div>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ut? Velit sunt ex voluptatibus, nam, asperiores error sequi iusto id dolor vero libero dicta, laborum eligendi magnam doloremque nemo dolorum.</p>
             </div>
           </div>
         </div>
