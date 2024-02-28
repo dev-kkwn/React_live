@@ -8,9 +8,9 @@ function About() {
         <div id="sec1" className="container h-[450px] md:h-[600px] lg:w-full">
           <div className="absolute ">
             <img
-              src={
+              src=
                 "https://assets.weforum.org/article/image/YJN9W_hAEAYhpCu2qY1ZYh-oWePHtQEmX1Du8Uvvx7w.jpg"
-              }
+              
               className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
               alt=""
             />
@@ -109,7 +109,7 @@ function About() {
         </div>
 
         <div className="flex flex-wrap justify-around items-center p-3">
-          <div className="w-96 my-2 mx-3 border border-black rounded-xl bg-gray-600">
+          <div className="w-96 my-2 mx-3 border border-black rounded-xl ">
             <div className="flex justify-center items-center">
               <img
                 className="w-full rounded-xl"
@@ -133,7 +133,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="w-96 my-2 mx-3 border border-black rounded-xl bg-gray-600">
+          <div className="w-96 my-2 mx-3 border border-black rounded-xl">
             <div className="flex justify-center items-center">
               <img
                 className="w-full rounded-xl"
@@ -157,7 +157,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="w-96 my-2 mx-3 border border-black rounded-xl bg-gray-600">
+          <div className="w-96 my-2 mx-3 border border-black rounded-xl ">
             <div className="flex justify-center items-center">
               <img
                 className="w-full rounded-xl"
@@ -182,28 +182,37 @@ function About() {
           </div>
         </div>
 
+        {/* newly Edited */}
         <div className="new w-full md:p-12 ">
           <div className="aa md:flex md:justify-around">
             <div className="about-part-1 md:p-10 md:flex md:flex-col md:items-center">
               <div className="img-about">
-                <img src={about1} alt="aoye" className="rounded-3xl w-4/4 h-[90%]" />
+                <img
+                  src={about1}
+                  alt="aoye"
+                  className="rounded-3xl w-4/4 h-[90%]"
+                />
               </div>
               <div className="content-about md:p- md:my- md:flex md:flex-col md:justify-evenly md:items-center">
-                <h1 className="text-6xl md:my-3"> This is How we move</h1>
-                <p className="text-lg">
+                <h1 className="text-4xl md:text-6xl mx-2 md:mx-2 md:my-3"> This is How we move</h1>
+                <p className="text-lg my-3 md:my-0 p-3 md:p-0 text-justify">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Perspiciatis, necessitatibus excepturi nobis sint adipisci,
                   quaerat assumenda inventore accusantium autem illum accusamus
                   maiores magnam, ipsa nemo corrupti laborum quo odit eius.
                 </p>
-                <div className="md:my-3 flex items-center w-max bg-blue-600 md:p-2 rounded-full">
-                  <button className="text-lg mx-2 text-white ">Explore</button>
+                <div className="mx-5 md:mx-5 my-3 md:my-3 flex items-center w-max bg-blue-600 md:p-2 rounded-full">
+                  <button className="text-lg mx-2 text-white p-1">Explore</button>
                   <FaArrowRight className="text-white" />
                 </div>
               </div>
             </div>
             <div className="about-part-2">
-              <img src={about2} alt="about-size" className="rounded-3xl h-4/5" />
+              <img
+                src={about2}
+                alt="about-size"
+                className="rounded-3xl h-4/5 hidden lg:block"
+              />
             </div>
           </div>
         </div>
