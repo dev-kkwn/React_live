@@ -182,11 +182,16 @@ function About() {
           </div>
         </div>
 
+        {/* newly Edited */}
         <div className="new w-full md:p-12 ">
           <div className="aa md:flex md:justify-around">
             <div className="about-part-1 md:p-10 md:flex md:flex-col md:items-center">
               <div className="img-about">
-                <img src={about1} alt="aoye" className="rounded-3xl w-4/4 h-[90%]" />
+                <img
+                  src={about1}
+                  alt="aoye"
+                  className="rounded-3xl w-4/4 h-[90%]"
+                />
               </div>
               <div className="content-about md:p- md:my- md:flex md:flex-col md:justify-evenly md:items-center">
                 <h1 className="text-6xl md:my-3"> This is How we move</h1>
@@ -203,7 +208,11 @@ function About() {
               </div>
             </div>
             <div className="about-part-2">
-              <img src={about2} alt="about-size" className="rounded-3xl h-4/5" />
+              <img
+                src={about2}
+                alt="about-size"
+                className="rounded-3xl h-4/5"
+              />
             </div>
           </div>
         </div>
