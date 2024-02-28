@@ -26,49 +26,52 @@ function Whoweare() {
             </p>
             <div className="flex">
               <div className="border border-black w-max m-3 ml-0 p-3 rounded-l-2xl hover:backdrop-blur-2xl hover:bg-white/30">
-                <p className="text-xl font-medium">carousal</p>
+                <p className="text-xl font-medium capitalize">carousal</p>
               </div>
               <div className="border border-black w-max m-3 ml-0 p-3 rounded-r-2xl  hover:backdrop-blur-2xl hover:bg-white/30">
-                <p className="text-xl font-medium">contact</p>
+                <p className="text-xl font-medium capitalize">contact</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="sample-text p-5">
-          <h1 className="text-2xl ml-5 text-blue-600">
-            This is your sample header that goes here.... glimpse of who we are
-          </h1>
-        </div>
-        <div className="overview-approach md:flex md:items-center md:p-5 lg:p-10 bg-blue-300">
-          <div className="overview-content px-2 lg:px-5">
-            <div className="idcon flex items-center">
-              <h1 className="mx-2 text-3xl my-3">OverView</h1>
-              <FaEye className="text-3xl" />
-            </div>
-            <p className="text-lg">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Repudiandae dolorum magni magnam? Recusandae, eum eveniet ipsa
-              repellendus consequatur incidunt enim ipsam dolorem maiores a
-              cupiditate molestiae dignissimos perspiciatis. Voluptate, vitae?
-            </p>
+
+        <div>
+          <div className="p-5 text-center">
+            <h1 className="text-4xl font-medium ml-5 text-blue-600 capitalize">
+              heading
+            </h1>
           </div>
-          <div className="approach-centent px-2 lg:px-5">
-            <div className="idcon flex items-center">
-              <h1 className="mx-2 text-3xl my-3">Approach</h1>
-              <FaHeadSideVirus className="text-3xl" />
+          <div className="overview-approach md:flex md:items-center md:p-5 lg:p-10 bg-blue-300">
+            <div className="overview-content px-2 lg:px-5">
+              <div className="idcon flex items-center">
+                <h1 className="mx-2 text-3xl my-3">OverView</h1>
+                <FaEye className="text-3xl" />
+              </div>
+              <p className="text-lg">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Repudiandae dolorum magni magnam? Recusandae, eum eveniet ipsa
+                repellendus consequatur incidunt enim ipsam dolorem maiores a
+                cupiditate molestiae dignissimos perspiciatis. Voluptate, vitae?
+              </p>
             </div>
-            <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              saepe delectus? Odio provident illum at, sequi expedita repellat
-              alias nesciunt rem doloremque dolor similique vitae porro,
-              molestiae nostrum autem deleniti.
-            </p>
+            <div className="approach-centent px-2 lg:px-5">
+              <div className="idcon flex items-center">
+                <h1 className="mx-2 text-3xl my-3">Approach</h1>
+                <FaHeadSideVirus className="text-3xl" />
+              </div>
+              <p className="text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                saepe delectus? Odio provident illum at, sequi expedita repellat
+                alias nesciunt rem doloremque dolor similique vitae porro,
+                molestiae nostrum autem deleniti.
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="p-5">
           <div className="text-center">
-            <p className="text-5xl capitalize">main content</p>
+            <p className="text-4xl font-medium capitalize">results</p>
           </div>
           <div className="flex flex-wrap justify-evenly gap-x-5 md:p-2 my-5">
             <div className="text-justify md:w-5/12 lg:w-3/12 bg-slate-100 text-black rounded-2xl my-4 p-5 shadow-2xl">
