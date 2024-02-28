@@ -176,7 +176,7 @@ function Section1() {
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
-              src={"https://www.itilite.com/wp-content/uploads/2024/01/Maximizing-Business-Travel-Benefits-with-ITILITEs-Travel-Technology-Integration-1024x538-1.png"}
+              src="https://www.itilite.com/wp-content/uploads/2024/01/Maximizing-Business-Travel-Benefits-with-ITILITEs-Travel-Technology-Integration-1024x538-1.png"
               className="md:rounded-3xl object-cover "
               alt="banner-3"
             />
