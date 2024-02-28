@@ -42,274 +42,396 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec-2" className="p-5">
-        <div className="flex  flex-wrap">
-          <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
-              <span className=""> - </span> ABOUT US <span> - </span>
-            </p>
-            <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
-              OIL & GAS INNOVATORS: DRIVING PROGRESSN IN THE INDUSTRY
-            </h1>
-            <p className="text-md my-6 text-start xl:text-xl">
-              From exploration and production to transportation and refining, we
-              offer a wide range of products and services that meet the unique
-              needs of the oil & gas industry. Our commitment to excellence and
-              customer satisfaction is reflected in our rigorous quality control
-              processes.
-            </p>
-            {/* <a href={'/'} className="text-xl xl:text-3xl ">
+      <div className="lg:px-10">
+        <div id="sec-2" className="p-5">
+          <div className="flex  flex-wrap">
+            <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
+              <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
+                <span className=""> - </span> ABOUT US <span> - </span>
+              </p>
+              <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
+                OIL & GAS INNOVATORS: DRIVING PROGRESSN IN THE INDUSTRY
+              </h1>
+              <p className="text-md my-6 text-start xl:text-xl">
+                From exploration and production to transportation and refining,
+                we offer a wide range of products and services that meet the
+                unique needs of the oil & gas industry. Our commitment to
+                excellence and customer satisfaction is reflected in our
+                rigorous quality control processes.
+              </p>
+              {/* <a href={'/'} className="text-xl xl:text-3xl ">
               Learn More +
             </a> */}
-            <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
-              <a href={'/'} className="text-lg">
-                Learn More
-              </a>
+              <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
+                <a href={"/"} className="text-lg">
+                  Learn More
+                </a>
+              </div>
+            </div>
+            <div className="p-5 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+              <img
+                src={aboutimg1}
+                className="rounded-3xl object-cover"
+                alt="power & future"
+              />
             </div>
           </div>
-          <div className="p-5 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
-            <img
-              src={aboutimg1}
-              className="rounded-3xl object-cover"
-              alt="power & future"
-            />
-          </div>
         </div>
-      </div>
+        </div>
 
-      <div id="sec-3" className="p-5 bg-blue-100 text-black">
-        <div className="flex  flex-wrap">
-          <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
-            <img
-              src={futureimg}
-              className="md:rounded-3xl object-cover "
-              alt="banner-3"
-            />
-          </div>
-          <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7">
-              <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
-            </p>
-            <h1 className="text-3xl font-bold mt-1 xl:text-4xl"> POWERING YOUR FUTURE </h1>
-            <p className="text-md my-6 text-start xl:text-xl"> With cutting-edge technology and unparalleled expertise, we've propelled your future forward by delivering reliable, sustainable power solutions tailored to your needs. Our commitment to innovation and efficiency ensures that we remain at the forefront of powering your journey towards success. Trust us to illuminate your path, energizing every step of the way. </p>
-            {/* <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a> */}
-            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
-              <a href={'/'} className="text-xl">
-                Learn More
-              </a>
+        <div id="sec-3" className="py-5 px-5 lg:px-14 bg-blue-100 text-black">
+          <div className="flex  flex-wrap">
+            <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+              <img
+                src={futureimg}
+                className="md:rounded-3xl object-cover "
+                alt="banner-3"
+              />
+            </div>
+            <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
+              <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7">
+                <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
+              </p>
+              <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
+                {" "}
+                POWERING YOUR FUTURE{" "}
+              </h1>
+              <p className="text-md my-6 text-start xl:text-xl">
+                {" "}
+                With cutting-edge technology and unparalleled expertise, we've
+                propelled your future forward by delivering reliable,
+                sustainable power solutions tailored to your needs. Our
+                commitment to innovation and efficiency ensures that we remain
+                at the forefront of powering your journey towards success. Trust
+                us to illuminate your path, energizing every step of the way.{" "}
+              </p>
+              {/* <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a> */}
+              <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+                <a href={"/"} className="text-xl">
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
 
-      <div id="sec-4" className="p-5">
-        <div>
-          <div className="text-center">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
-              <span className=""> - </span> OUR teams <span> - </span>
-            </p>
-          </div>
-          <div className="my-4">
-            <p className="uppercase text-center text-3xl font-bold xl:text-4xl my-4">this is why industry our team is so famous</p>
-            <div className="flex flex-wrap justify-evenly">
-              <div className="w-96 m-1">
-                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-1" />
-                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
-                  <p className="text-xl font-bold capitalize">name of the member</p>
-                  <p className="text-lg">working position</p>
+        <div id="sec-4" className="p-5">
+          <div>
+            <div className="text-center">
+              <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
+                <span className=""> - </span> OUR teams <span> - </span>
+              </p>
+            </div>
+            <div className="my-4">
+              <p className="uppercase text-center text-3xl font-bold xl:text-4xl mt-4 mb-10">
+                this is why industry our team is so famous
+              </p>
+              <div className="flex flex-wrap justify-evenly">
+                <div className="w-96 m-1">
+                  <img
+                    src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="
+                    className="rounded-t-xl"
+                    alt="member-1"
+                  />
+                  <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                    <p className="text-xl font-bold capitalize">
+                      name of the member
+                    </p>
+                    <p className="text-lg">working position</p>
+                  </div>
+                </div>
+                <div className="w-96 m-1">
+                  <img
+                    src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="
+                    className="rounded-t-xl"
+                    alt="member-2"
+                  />
+                  <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                    <p className="text-xl font-bold capitalize">
+                      name of the member
+                    </p>
+                    <p className="text-lg">working position</p>
+                  </div>
+                </div>
+                <div className="w-96 m-1">
+                  <img
+                    src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="
+                    className="rounded-t-xl"
+                    alt="member-3"
+                  />
+                  <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
+                    <p className="text-xl font-bold capitalize">
+                      name of the member
+                    </p>
+                    <p className="text-lg">working position</p>
+                  </div>
                 </div>
               </div>
-              <div className="w-96 m-1">
-                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-2" />
-                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
-                  <p className="text-xl font-bold capitalize">name of the member</p>
-                  <p className="text-lg">working position</p>
+            </div>
+          </div>
+          <div className="pt-4">
+            <div className="uppercase text-center text-3xl font-bold xl:text-4xl">
+              <p>our accomplishments</p>
+            </div>
+            <div className="my-2 p-5 flex flex-wrap justify-around">
+              <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+                <p>
+                  <GiMedal className="text-[60px] text-blue-600 " />
+                </p>
+                <div className="flex flex-col items-start">
+                  <p className="text-5xl font-medium">1500+</p>
+                  <p className="text-lg capitalize ml-1">satisfied clinets</p>
                 </div>
               </div>
-              <div className="w-96 m-1">
-                <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" className="rounded-t-xl" alt="member-3" />
-                <div className="flex flex-col drop-shadow-xl w-max py-3 px-4 rounded-b-lg bg-slate-50">
-                  <p className="text-xl font-bold capitalize">name of the member</p>
-                  <p className="text-lg">working position</p>
+              <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
+                <p>
+                  <GiTrophyCup className="text-[55px] text-blue-600 " />
+                </p>
+                <div className="flex flex-col items-start">
+                  <p className="text-5xl font-medium">175+</p>
+                  <p className="text-lg capitalize ml-1">Winning awards</p>
+                </div>
+              </div>
+              <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
+                <p>
+                  <MdGroups className="text-[50px] text-blue-600 " />
+                </p>
+                <div className="flex flex-col items-start">
+                  <p className="text-5xl font-medium">150+</p>
+                  <p className="text-lg capitalize ml-1">expert teams</p>
+                </div>
+              </div>
+              <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
+                <p>
+                  <FaProjectDiagram className="text-[50px] text-blue-600 " />
+                </p>
+                <div className="flex flex-col  ml-2 items-start">
+                  <p className="text-5xl font-medium">200+</p>
+                  <p className="text-lg capitalize ">active projects</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="pt-4">
-          <div className="uppercase text-center text-3xl font-bold xl:text-4xl"><p>our accomplishments</p></div>
-          <div className="my-2 p-5 flex flex-wrap justify-around">
-            <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
-              <p><GiMedal className="text-[60px] text-blue-600 " /></p>
-              <div className="flex flex-col items-start">
-                <p className="text-5xl font-medium">1500+</p>
-                <p className="text-lg capitalize ml-1">satisfied clinets</p>
-              </div>
-            </div>
-            <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
-              <p><GiTrophyCup className="text-[55px] text-blue-600 " /></p>
-              <div className="flex flex-col items-start">
-                <p className="text-5xl font-medium">175+</p>
-                <p className="text-lg capitalize ml-1">Winning awards</p>
-              </div>
-            </div>
-            <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
-              <p><MdGroups className="text-[50px] text-blue-600 " /></p>
-              <div className="flex flex-col items-start">
-                <p className="text-5xl font-medium">150+</p>
-                <p className="text-lg capitalize ml-1">expert teams</p>
-              </div>
-            </div>
-            <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
-              <p><FaProjectDiagram className="text-[50px] text-blue-600 " /></p>
-              <div className="flex flex-col  ml-2 items-start">
-                <p className="text-5xl font-medium">200+</p>
-                <p className="text-lg capitalize ">active projects</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="sec-5" className="p-5 bg-blue-100 text-black">
-        <div className="flex  flex-wrap">
-          <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
-            <img
-              src="https://www.itilite.com/wp-content/uploads/2024/01/Maximizing-Business-Travel-Benefits-with-ITILITEs-Travel-Technology-Integration-1024x538-1.png"
-              className="md:rounded-3xl object-cover "
-              alt="banner-3"
-            />
-          </div>
-          <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-blue-400 uppercase text-md my-5 mb-6 xl:text-xl xl:mt-7">
-              <span className=""> - </span> technologies <span> - </span>
-            </p>
-            <h1 className="text-3xl uppercase font-bold mt-1 xl:text-4xl"> specializes your technologies </h1>
-            <div className="text-md my-6 text-start xl:text-xl">
-              <div className="my-4 flex flex-wrap md:max-2xl:flex-nowrap">
-                <div className="flex">
+        <div id="sec-5" className="py-5 px-5 lg:px-14 bg-blue-100 text-black">
+          <div className="flex  flex-wrap">
+            <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+              <img
+                src="https://www.itilite.com/wp-content/uploads/2024/01/Maximizing-Business-Travel-Benefits-with-ITILITEs-Travel-Technology-Integration-1024x538-1.png"
+                className="md:rounded-3xl object-cover "
+                alt="banner-3"
+              />
+            </div>
+            <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
+              <p className="text-blue-400 uppercase text-md my-5 mb-6 xl:text-xl xl:mt-7">
+                <span className=""> - </span> technologies <span> - </span>
+              </p>
+              <h1 className="text-3xl uppercase font-bold mt-1 xl:text-4xl">
+                {" "}
+                specializes your technologies{" "}
+              </h1>
+              <div className="text-md my-6 text-start xl:text-xl">
+                <div className="my-4 flex flex-wrap md:max-2xl:flex-nowrap">
                   <div className="flex">
-                    <GiTrophyCup className="text-[50px] mt-2" />
+                    <div className="flex">
+                      <GiTrophyCup className="text-[50px] mt-2" />
+                    </div>
+                    <div className="ml-2">
+                      <p className="capitalize text-xl font-medium">heading</p>
+                      <p className="text-lg text-slate-700">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Rem, esse explicabo voluptatem saepe reiciendis
+                        ipsam eveniet aspernatur nostrum.
+                      </p>
+                    </div>
                   </div>
-                  <div className="ml-2">
-                    <p className="capitalize text-xl font-medium">heading</p>
-                    <p className="text-lg text-slate-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, esse explicabo voluptatem saepe reiciendis ipsam eveniet aspernatur nostrum.</p>
-                  </div>
-                </div>
-                <div className="flex">
                   <div className="flex">
-                    <GiTrophyCup className="text-[50px] mt-2" />
-                  </div>
-                  <div className="ml-2">
-                    <p className="capitalize text-xl font-medium">heading</p>
-                    <p className="text-lg text-slate-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, esse explicabo voluptatem saepe reiciendis ipsam eveniet aspernatur nostrum.</p>
+                    <div className="flex">
+                      <GiTrophyCup className="text-[50px] mt-2" />
+                    </div>
+                    <div className="ml-2">
+                      <p className="capitalize text-xl font-medium">heading</p>
+                      <p className="text-lg text-slate-700">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Rem, esse explicabo voluptatem saepe reiciendis
+                        ipsam eveniet aspernatur nostrum.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-
-            </div>
-            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
-              <a href={'/'} className="text-xl">
-                Learn More
-              </a>
+              <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+                <a href={"/"} className="text-xl">
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
 
-      <div id='sec-6' className="bg-black text-white py-8">
+
+      
+      <div id="sec-6" className="bg-black text-white py-8">
         <div className="text-center pt-5">
-          <p className="text-blue-400 md:text-lg lg:text-xl mb-6"> <span > - </span> SERVICES WE PROVIDE <span> - </span> </p>
-          <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE </h1>
+          <p className="text-blue-400 md:text-lg lg:text-xl mb-6">
+            {" "}
+            <span> - </span> SERVICES WE PROVIDE <span> - </span>{" "}
+          </p>
+          <h1 className="text-white md:text-xl lg:text-2xl xl:text-4xl font-bold">
+            INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE{" "}
+          </h1>
         </div>
         <div className="flex flex-wrap gap-x-20 gap-y-10 w-full justify-center pl-10 pt-10 pr-10 pb-4">
-
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={impimg} alt="import & export" />
+              <img
+                class="h-96 w-full object-cover"
+                src={impimg}
+                alt="import & export"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">IMPORT AND EXPORT</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  IMPORT AND EXPORT
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={goldimg} alt="gold & precious metals" />
+              <img
+                class="h-96 w-full object-cover"
+                src={goldimg}
+                alt="gold & precious metals"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7"> GOLD & PRECIOUS METALS </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  {" "}
+                  GOLD & PRECIOUS METALS{" "}
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={foodimg} alt="food & beverages" />
+              <img
+                class="h-96 w-full object-cover"
+                src={foodimg}
+                alt="food & beverages"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">FOOD & BEVERAGES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  FOOD & BEVERAGES
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={itimg} alt="information technology" />
+              <img
+                class="h-96 w-full object-cover"
+                src={itimg}
+                alt="information technology"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col p-6 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">INFORMATION TECHNOLOGY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  INFORMATION TECHNOLOGY
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={fcimg} alt="financial consultancy" />
+              <img
+                class="h-96 w-full object-cover"
+                src={fcimg}
+                alt="financial consultancy"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">FINANCIAL CONSULTANCY</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  FINANCIAL CONSULTANCY
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={realestateimg} alt="olsortz" />
+              <img
+                class="h-96 w-full object-cover"
+                src={realestateimg}
+                alt="olsortz"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">REAL ESTATE CONSULTANCY </h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  REAL ESTATE CONSULTANCY{" "}
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={solarimg} alt="solar technologies" />
+              <img
+                class="h-96 w-full object-cover"
+                src={solarimg}
+                alt="solar technologies"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">SOLAR TECHNOLOGIES</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  SOLAR TECHNOLOGIES
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
 
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
-              <img class="h-96 w-full object-cover" src={lubeimg} alt="petrochemicals & lubricants" />
+              <img
+                class="h-96 w-full object-cover"
+                src={lubeimg}
+                alt="petrochemicals & lubricants"
+              />
               <div class="absolute h-full w-full bg-black/50 flex flex-col pl-3 justify-end -bottom-20 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p class=" text-white text-sm pb-2">Olsortz</p>
-                <h1 class=" text-white text-xl font-semibold pb-7">PETROCHEMICALS & LUBRICANTS</h1>
-                <a href={'/'} class=" text-white text-lg font-light mb-5">Learn More </a>
+                <h1 class=" text-white text-xl font-semibold pb-7">
+                  PETROCHEMICALS & LUBRICANTS
+                </h1>
+                <a href={"/"} class=" text-white text-lg font-light mb-5">
+                  Learn More{" "}
+                </a>
               </div>
             </div>
           </div>
@@ -319,7 +441,7 @@ function Section1() {
         </div> */}
       </div>
 
-      <div id="sec-7" className="p-5">
+      <div id="sec-7" className="py-5 px-5 lg:px-14">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -336,10 +458,16 @@ function Section1() {
               THE FUTURE OF OIL & GAS IS HERE
             </h1>
             <p className="text-md my-6 text-start xl:text-xl">
-              The future of oil and gas brings with it unparalleled advancements in efficiency and sustainability. With cutting-edge technologies, we harness cleaner extraction methods, minimizing environmental impact. Enhanced data analytics optimize operations, ensuring safer and more cost-effective production. Embracing innovation, the future of oil and gas propels us towards a more sustainable energy landscape.
+              The future of oil and gas brings with it unparalleled advancements
+              in efficiency and sustainability. With cutting-edge technologies,
+              we harness cleaner extraction methods, minimizing environmental
+              impact. Enhanced data analytics optimize operations, ensuring
+              safer and more cost-effective production. Embracing innovation,
+              the future of oil and gas propels us towards a more sustainable
+              energy landscape.
             </p>
             <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
-              <a href={'/'} className="text-lg">
+              <a href={"/"} className="text-lg">
                 Learn More
               </a>
             </div>
