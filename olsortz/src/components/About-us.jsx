@@ -1,5 +1,5 @@
-import about2 from "../assests/about1.jpg";
-import about1 from "../assests/about2.jpg";
+import about1 from "../assests/about1.jpg";
+import about2 from "../assests/about2.jpg";
 import { FaArrowRight, FaFolder } from "react-icons/fa6";
 function About() {
   return (
@@ -182,30 +182,28 @@ function About() {
           </div>
         </div>
 
-        <div className="new w-full md:p-10 ">
-          <div className="aa md:flex md:justify-around md:items-center w-full ">
-            <div className="about-part-1 w-2/4 ">
+        <div className="new w-full md:p-12 ">
+          <div className="aa md:flex md:justify-around">
+            <div className="about-part-1 md:p-10 md:flex md:flex-col md:items-center">
               <div className="img-about">
-                <img src={about2} alt="aoye" className="rounded-3xl "/>
+                <img src={about1} alt="aoye" className="rounded-3xl w-4/4 h-[90%]" />
               </div>
-              <div className="content-about  md:flex md:flex-col md:justify-evenly md:items-center">
-                <h1 className="text-6xl"> This is How we move</h1>
+              <div className="content-about md:p- md:my- md:flex md:flex-col md:justify-evenly md:items-center">
+                <h1 className="text-6xl md:my-3"> This is How we move</h1>
                 <p className="text-lg">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Perspiciatis, necessitatibus excepturi nobis sint adipisci,
                   quaerat assumenda inventore accusantium autem illum accusamus
                   maiores magnam, ipsa nemo corrupti laborum quo odit eius.
                 </p>
-                <div className=" flex items-center w-max bg-blue-600 md:p-2 rounded-full">
-                  <button className="text-lg mx-2 text-white">
-                    Explore
-                  </button>
-                  <FaArrowRight className="text-white"/>
+                <div className="md:my-3 flex items-center w-max bg-blue-600 md:p-2 rounded-full">
+                  <button className="text-lg mx-2 text-white ">Explore</button>
+                  <FaArrowRight className="text-white" />
                 </div>
               </div>
             </div>
-            <div className="about-patr-2 w-1/2">
-                          <img src={about1} alt="about-size" className="rounded-3xl  h-[500px] object-cover"/>
+            <div className="about-part-2">
+              <img src={about2} alt="about-size" className="rounded-3xl h-4/5" />
             </div>
           </div>
         </div>
