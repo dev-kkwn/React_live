@@ -9,7 +9,7 @@ export default function Trade() {
         <div className="context-kk-trade-banner md:flex justify-start items-center w-full">
           <div className="context md:m-10 h-80 w-full">
             <div className="text w-96  md:my-10 md:mx-10">
-              <h1 className="text-5xl font-bold">
+              <h1 className="text-5xl text-white font-bold">
                 Gold & Precious Metals Trading
               </h1>
               {/* <p className="text-lg text-white font-bold my-5">
