@@ -61,6 +61,49 @@ background-repeat: no-repeat;
 position: relative;
 }
 
+.context-kk-trade-banner{
+background-image: url(./assests/trade-banner.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.context-kk-food-banner{
+background-image: url(./assests/food-banner.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.context-kk-petro-banner{
+background-image: url(./assests/petrochem-banner.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.context-kk-food-banner{
+background-image: url(./assests/food-banner.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.context-kk-it-banner{
+background-image: url(./assert/it-img.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+
+
+
 .overview-content{
   border-right: solid black 3px;
 }
