@@ -5,10 +5,10 @@ function Footer() {
     <>
       <div className=" bg-black text-white p-3">
         <div className="text-center my-4">
-          <h1 className="text-2xl font-medium capitalize">our key contacts</h1>
+          {/* <h1 className="text-2xl font-medium capitalize">our key contacts</h1> */}
         </div>
         <div className="w-full flex flex-wrap justify-around items-center">
-          <div className="w-60 md:w-auto my-1">
+          {/* <div className="w-60 md:w-auto my-1">
             <h1 className="uppercase text-xl text-blue-400">
               Habeeb Al Hafidh
             </h1>
@@ -19,15 +19,15 @@ function Footer() {
               habeeb@olsortz.com <br />
               investmentaxis@hotmail.com
             </p>
-          </div>
-          <div className="w-60 md:w-auto my-1">
+          </div> */}
+          {/* <div className="w-60 md:w-auto my-1">
             <h1 className="uppercase text-xl text-blue-400">Biju Rajan</h1>
             <p className="text-sm">
               Executive Director <br />
               +966 500064365 <br />
               biju@olsortz.com
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="my-3">
           <div className="text-2xl flex justify-center items-center mx-2">
@@ -79,7 +79,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex justify-center items-center ">
-          <div className="w-60 my-2">
+          <div className="w-full my-2 md:flex md:justify-evenly">
             <p className="">
               <span className="text-blue-400">Email</span>: helpdesk@olsortz.com
             </p>
