@@ -15,6 +15,8 @@ import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
 import Whoweare from "./components/Who-we-are";
 import { Loan } from "./components/serv-loan";
+import { Bank } from "./components/serv-banking";
+import { HighYield } from "./components/serv-highyield";
 
 function App() {
   return (
@@ -34,10 +36,11 @@ function App() {
           <Route path="itdiv" exact element={<Servit />} />
           <Route path="realestate" exact element={<Realestate />} />
           <Route path="loan" exact element={<Loan />} />
+          <Route path="bank" exact element={<Bank />} />
+          <Route path="highyield" exact element={<HighYield />} />
         </Route>
       </Routes>
       <Footer />
-      {/* <Whoweare /> */}
     </>
   );
 }

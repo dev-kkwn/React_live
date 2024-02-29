@@ -1,8 +1,8 @@
-import loan1 from "../assests/loan1.jpg";
-import loan2 from "../assests/loan2.jpg";
-import loan3 from "../assests/loan3.jpg";
+import highyield1 from "../assests/highyield1.png";
+import highyield2 from "../assests/highyield2.jpg";
+import highyield3 from "../assests/highyield3.jpg";
 import itimg1 from "../assert/it-img1.png";
-export function Loan() {
+export function HighYield() {
   return (
     <>
       <section className="">
@@ -165,7 +165,7 @@ export function Loan() {
             </div>
             <div className="pm-img">
               <img
-                src={loan1}
+                src={highyield1}
                 alt="image1"
                 className="w- h-96 rounded-none md:rounded-3xl"
               />
@@ -174,7 +174,7 @@ export function Loan() {
           <div className="main-part-2 my-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center w-full md:my-5">
             <div className="pm-img">
               <img
-                src={loan2}
+                src={highyield2}
                 alt="image2"
                 className="w- h-96 rounded-none md:rounded-3xl"
               />
@@ -222,7 +222,7 @@ export function Loan() {
             </div>
             <div className="pm-img ">
               <img
-                src={loan3}
+                src={highyield3}
                 alt="image3"
                 className="h-96 rounded-none md:rounded-3xl"
               />
