@@ -14,6 +14,7 @@ import Trade from "./components/serv-trade";
 import Food from "./components/serv-food";
 import ContactForm from "./components/contact";
 import Whoweare from "./components/Who-we-are";
+import { Loan } from "./components/serv-loan";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="solar" exact element={<Solar />} />
           <Route path="itdiv" exact element={<Servit />} />
           <Route path="realestate" exact element={<Realestate />} />
+          <Route path="loan" exact element={<Loan />} />
         </Route>
       </Routes>
       <Footer />

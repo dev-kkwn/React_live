@@ -68,7 +68,7 @@ function Nav() {
                   </div>
                   <div className="dropdown-menu">
                     <h1 className="dropdown-list p-1"><Link to="/services/metals">Bank&nbsp;Insrtuments&nbsp;LC</Link></h1>
-                    <h1 className="dropdown-list p-1"><Link to="/services/metals">Loan&nbsp;&&nbsp;Project&nbsp;Finance</Link></h1>
+                    <h1 className="dropdown-list p-1"><Link to="/services/loan">Loan&nbsp;&&nbsp;Project&nbsp;Finance</Link></h1>
                     <h1 className="dropdown-list p-1"><Link to="/services/metals">High&nbsp;Yield&nbsp;Investments</Link></h1>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ function Nav() {
                 </div>
                 <div className="dropdown-menu">
                   <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Bank instruments&nbsp;Lc&nbsp;SBLC</Link></h1>
-                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">Loan&nbsp;&&nbsp;project&nbsp;finance</Link></h1>
+                  <h1 className="dropdown-list m-1 p-2"><Link to="/services/loan">Loan&nbsp;&&nbsp;project&nbsp;finance</Link></h1>
                   <h1 className="dropdown-list m-1 p-2"><Link to="/services/metals">High&nbsp;Yield&nbsp;Investment&nbsp;Programs</Link></h1>
                 </div>
               </div>
