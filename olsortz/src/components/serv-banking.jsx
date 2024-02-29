@@ -6,7 +6,7 @@ export function Bank() {
   return (
     <>
       <section className="">
-        <div className="context-kk-banner md:flex justify-start items-center w-full">
+        <div className="context-kk-bank-banner md:flex justify-start items-center w-full">
           <div className="context md:m-10 h-80 w-full">
             <div className="text w-96  md:my-10 md:mx-10">
               <h1 className="text-5xl font-bold">
