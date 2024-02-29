@@ -1,134 +1,235 @@
-import React from "react";
-import itbanner from "../assert/it-img.jpg";
+import it1 from "../assert/it-img.jpg";
+import it2 from "../assert/it-img.jpg";
+import it3 from "../assert/it-img.jpg";
 import itimg1 from "../assert/it-img1.png";
-
-function Servit() {
+export default function Servit() {
   return (
-    <div>
-      <section>
-        <div
-          id="sec1"
-          className="container h-[450px] md:h-[520px] lg:w-full xl:h-[600px]"
-        >
-          <div className="absolute ">
-            <img
-              src={itbanner}
-              className="h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
-              alt=""
-            />
-          </div>
-          <div className="relative w-72 text-white left-6 top-36 h-48 md:top-32 md:left-10 lg:top-40 xl:left-28 lg:left-24">
-            <h1 className="text-3xl font-bold w-[290px] md:text-4xl md:w-96 lg:w-[580px] xl:text-6xl xl:font-bold xl:w-[800px]">
-              PROVIDING ENERGY SOLUCTIONS
-            </h1>
-            <p className="text-sm w-auto mt-4 mb-8 md:text-md md:mt-7 md:mb-10 md:w-[408px] xl:text-lg xl:w-[430px] xl:mt-8">
-              <span className="lg:block">At OLSORTZ,</span> we're in the
-              business of enhancing life's possibilities.
-            </p>
-          </div>
-        </div>
-      </section>
-
+    <>
       <section className="">
-        <div className="p-4 md:px-14 lg:px-32 lg:leading-loose xl:px-40 mt-5 font-[500]  lg:font-semibold font-sans">
-          <h1 className="text-3xl md:text=xl lg:text=6xl ">
-            We have entered the next era of digital transformation. This is
-            characterized by a growing convergence of product, software, data,
-            and services across all industries. At Capgemini we call this
-            'Intelligent Industry'.
-          </h1>
+        <div className="context-kk-it-banner md:flex justify-start items-center w-full">
+          <div className="context md:m-10 h-80 w-full">
+            <div className="text w-96  md:my-10 md:mx-10">
+              <h1 className="text-5xl font-bold">
+                Gold & Precious Metals Trading
+              </h1>
+              {/* <p className="text-lg text-white font-bold my-5">
+                OLSORTZ is deals with customers who were seeking a destination
+                for purchasing gold & precious metals in an environment focused
+                on security and service.
+              </p> */}
+            </div>
+          </div>
         </div>
-        <div className="p-4 mb-5 md:px-14 lg:px-32 lg:leading-relaxed xl:px-40 font-sans ">
-          <p className="font-[500]lg:text=lg opacity-90">
-            Capgemini helps you use digital technologies to unlock the potential
-            of your physical and digital worlds. We help you look at what you
-            already have in a different light, revolutionizing and securing
-            everything from products, to processes, to supply chains, so you can
-            imagine what's next.
-          </p>
+        <div className="intro-bang p-3 md:p-4">
+          <div className="flex flex-wrap justify-evenly md:px-5">
+            <div className="part-1 w-full md:mx-5">
+              <h1 className="text-2xl my-2 font-semibold">
+                Inherent Value and Global Demand
+              </h1>
+              <p className="text-lg">
+                Precious metals like gold, silver, platinum, and palladium hold
+                inherent value due to their rarity, beauty, and utility across
+                various industries. They are globally accepted as a store of
+                value and are sought after by investors worldwide.
+              </p>
+            </div>
+            <div className="part-2 md:mx-5">
+              <h1 className="text-2xl my-2 font-semibold">
+                Diverse Investment Options and Safe-Haven Status
+              </h1>
+              <p className="text-lg">
+                Investors have access to a variety of investment vehicles for
+                precious metals, including physical bullion, ETFs, mining
+                stocks, and futures contracts. Precious metals are often seen as
+                safe-haven assets, providing stability and wealth preservation
+                during times of economic uncertainty or geopolitical
+                instability.
+              </p>
+            </div>
+            <div className="part-3 md:mx-5">
+              <h1 className="text-2xl my-2 font-semibold">
+                Industrial Applications, Limited Supply
+              </h1>
+              <p className="text-lg">
+                Precious metals play crucial roles in industries such as
+                electronics, automotive, and healthcare due to their unique
+                properties. Despite their industrial demand, precious metals
+                have limited natural supplies, which contributes to their
+                enduring value and attractiveness as investments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <section className="mb-10 md:px-6">
+          <div className="my-5 py-4 px-2 md:px-4 xl:px-10">
+            <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
+              WHAT ENABLES
+              <span className="font-bold"> INTELLIGENT INDUSTRY?</span>
+            </h1>
+          </div>
+          <div className="flex justify-center gap-14 flex-wrap md:flex-nowrap">
+            {/* part-1 */}
+            <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 shadow-2xl">
+              <div>
+                <img
+                  src={itimg1}
+                  className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-64 md:h-48 lg:h-72 object-cover"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h1 className="text-xl lg:text-2xl font-bold p-2">
+                  Hyper-convergence
+                </h1>
+              </div>
+              <div>
+                <h2 className="text-lg lg:text-xl p-2">
+                  Hardware and software are being brought closer together,
+                  traditional industries are blurring their boundaries (e.g.,
+                  automotive and energy) and future innovations will fuse
+                  together the digital, physical, and biological.
+                </h2>
+              </div>
+            </div>
+
+            <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 shadow-2xl">
+              <div>
+                <img
+                  src={itimg1}
+                  className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h1 className="text-xl lg:text-2xl font-bold p-2">
+                  Hyper-convergence
+                </h1>
+              </div>
+              <div>
+                <h2 className="text-lg lg:text-xl p-2">
+                  Hardware and software are being brought closer together,
+                  traditional industries are blurring their boundaries (e.g.,
+                  automotive and energy) and future innovations will fuse
+                  together the digital, physical, and biological.
+                </h2>
+              </div>
+            </div>
+
+            <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 shadow-2xl">
+              <div>
+                <img
+                  src={itimg1}
+                  className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h1 className="text-xl lg:text-2xl font-bold p-2">
+                  Hyper-convergence
+                </h1>
+              </div>
+              <div>
+                <h2 className="text-lg lg:text-xl p-2">
+                  Hardware and software are being brought closer together,
+                  traditional industries are blurring their boundaries (e.g.,
+                  automotive and energy) and future innovations will fuse
+                  together the digital, physical, and biological.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div className="main-wrapper md:p-5">
+          <div className="main-part-1 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center  w-full md:my-10">
+            <div className="pm-1 p-5 w-full md:w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">
+                Core Values and Commitments
+              </h1>
+              <p className="my-5 text-xl">
+                In addition to innovation, integrity, and excellence, emphasize
+                the company's dedication to safety as a top priority in all
+                operations.
+              </p>
+              <p className="my-5 text-xl">
+                Discuss the company's long-term vision for sustainability,
+                aiming to become a leader in environmentally friendly practices
+                within the precious metals industry.
+              </p>
+              <p className="my-5 text-xl">
+                Highlight the company's role as a responsible corporate citizen,
+                actively contributing to the communities in which it operates
+                through philanthropic initiatives and partnerships.
+              </p>
+            </div>
+            <div className="pm-img">
+              <img
+                src={it1}
+                alt="image1"
+                className="w- h-96 rounded-none md:rounded-3xl"
+              />
+            </div>
+          </div>
+          <div className="main-part-2 my-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center w-full md:my-5">
+            <div className="pm-img">
+              <img
+                src={it2}
+                alt="image2"
+                className="w- h-96 rounded-none md:rounded-3xl"
+              />
+            </div>
+            <div className="pm-2 p-5 w-full md:w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">
+                Operational Excellence and Sustainability
+              </h1>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Detail specific initiatives undertaken by the company to reduce
+                its carbon footprint, such as energy-efficient processes, waste
+                reduction programs, and recycling efforts.
+              </p>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Showcase partnerships with sustainability-focused organizations
+                or certifications obtained, demonstrating the company's
+                commitment to environmental stewardship.
+              </p>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Provide examples of innovative technologies or methodologies
+                implemented in refining processes, showcasing the company's
+                leadership in sustainable practices.
+              </p>
+            </div>
+          </div>
+
+          <div className="main-part-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center md:flex md:justify-around md:items-center w-full md:my-5">
+            <div className="pm-3 p-5 w-full lg:p-5 md:w-2/4 flex flex-col items-center">
+              <h1 className="text-3xl font-bold">Customer-Centric Approach</h1>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Highlight testimonials or case studies from satisfied customers,
+                illustrating how the company's personalized solutions have
+                positively impacted their businesses.
+              </p>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Discuss ongoing efforts to enhance the customer experience, such
+                as streamlined ordering processes, responsive customer support,
+                or value-added services.
+              </p>
+              <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
+                Offer insights into the company's dedication to continuous
+                improvement based on customer feedback, showcasing a commitment
+                to evolving alongside the needs of its clientele
+              </p>
+            </div>
+            <div className="pm-img ">
+              <img
+                src={it3}
+                alt="image3"
+                className="h-96 rounded-none md:rounded-3xl"
+              />
+            </div>
+          </div>
         </div>
       </section>
-
-      <section className="mb-10">
-        <div className="my-5 py-4 px-2 md:px-4 xl:px-10">
-          <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-xl">
-            WHAT ENABLES{" "}
-            <span className="font-bold">INTELLIGENT INDUSTRY?</span>
-          </h1>
-        </div>
-        <div className="flex justify-center gap-14 flex-wrap md:flex-nowrap">
-          <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
-            <div>
-              <img
-                src={itimg1}
-                className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-64 md:h-48 lg:h-72 object-cover"
-                alt=""
-              />
-            </div>
-            <div>
-              <h1 className="text-xl lg:text-2xl font-bold">
-                Hyper-convergence
-              </h1>
-            </div>
-            <div>
-              <h2 className="text-lg lg:text-xl">
-                Hardware and software are being brought closer together,
-                traditional industries are blurring their boundaries (e.g.,
-                automotive and energy) and future innovations will fuse together
-                the digital, physical, and biological.
-              </h2>
-            </div>
-          </div>
-
-          <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
-            <div>
-              <img
-                src={itimg1}
-                className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
-                alt=""
-              />
-            </div>
-            <div>
-              <h1 className="text-xl lg:text-2xl font-bold">
-                Hyper-convergence
-              </h1>
-            </div>
-            <div>
-              <h2 className="text-lg lg:text-xl">
-                Hardware and software are being brought closer together,
-                traditional industries are blurring their boundaries (e.g.,
-                automotive and energy) and future innovations will fuse together
-                the digital, physical, and biological.
-              </h2>
-            </div>
-          </div>
-
-          <div className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 ">
-            <div>
-              <img
-                src={itimg1}
-                className="xl:w-80 lg:w-[300px] md:w-52 w-full p-2 h-72 md:h-48 lg:h-72 object-cover"
-                alt=""
-              />
-            </div>
-            <div>
-              <h1 className="text-xl lg:text-2xl font-bold">
-                Hyper-convergence
-              </h1>
-            </div>
-            <div>
-              <h2 className="text-lg lg:text-xl">
-                Hardware and software are being brought closer together,
-                traditional industries are blurring their boundaries (e.g.,
-                automotive and energy) and future innovations will fuse together
-                the digital, physical, and biological.
-              </h2>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    </>
   );
 }
-
-export default Servit;
