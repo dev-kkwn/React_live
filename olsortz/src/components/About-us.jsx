@@ -26,7 +26,7 @@ function About() {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-around items-center p-3">
+        <div className="flex flex-wrap justify-around items-center p-3 md:px-14">
           <div className="w-96 my-2 mx-3 border border-black rounded-xl">
             <div className="flex justify-center items-center">
               <img
@@ -108,7 +108,7 @@ function About() {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-around items-center p-3">
+        <div className="flex flex-wrap justify-between items-center p-3 md:mx-14">
           <div className="w-96 my-2 mx-3 border border-black rounded-xl ">
             <div className="flex justify-center items-center">
               <img
