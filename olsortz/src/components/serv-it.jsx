@@ -1,6 +1,6 @@
-import it1 from "../assert/it-img.jpg";
-import it2 from "../assert/it-img.jpg";
-import it3 from "../assert/it-img.jpg";
+import it1 from "../assests/it1.jpg";
+import it2 from "../assests/it2.jpg";
+import it3 from "../assests/it3.jpg";
 import itimg1 from "../assert/it-img1.png";
 export default function Servit() {
   return (
