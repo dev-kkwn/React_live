@@ -79,7 +79,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex justify-center items-center ">
-          <div className="w-full my-2 md:flex md:justify-evenly">
+          <div className="w-full my-2 md:flex md:justify-evenly text-center">
             <p className="">
               <span className="text-blue-400">Email</span>: helpdesk@olsortz.com
             </p>
