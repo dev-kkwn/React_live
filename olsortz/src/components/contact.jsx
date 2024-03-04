@@ -192,14 +192,14 @@ const ContactForm = () => {
         </form>
       </div>
       <div className="maps">
-        <div className="md:flex  md:justify-evenly">
-          <h1 className="text-3xl md:my-3 mx-5 ">We Reside Here</h1>
-          <div className="">
+        <div className=" ">
+          <h1 className="text-3xl md:my-3 text-center">We Reside Here</h1>
+          <div className="w-full h-96">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d242.98812692960058!2d80.26507117042007!3d13.071359532877871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1708927702467!5m2!1sen!2sin"
               width="1500"
               height="450"
-              className="w-full h-[450px] md:w-[600px] md:h-[450px] p-5 md:p-0 mb-5"
+              className="w-full h-full "
               style={{ border: 0 }}
               allowfullscreen=""
               loading="lazy"
