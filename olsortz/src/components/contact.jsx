@@ -54,6 +54,46 @@ const ContactForm = () => {
 
   return (
     <section>
+      <div className="flex justify-around items-center">
+        <div className="c-part-1 flex justify-around items-center md:w-[50%] w-full">
+        <div className="w-60 md:w-auto my-1">
+            <h1 className="uppercase text-2xl text-blue-400">Biju Rajan</h1>
+            <p className="text-lg">
+              Executive Director <br />
+              +966 500064365 <br />
+              biju@olsortz.com
+            </p>
+          </div> 
+          <div className="w-60 md:w-auto my-1">
+            <h1 className="uppercase text-2xl text-blue-400">
+              Habeeb Al Hafidh
+            </h1>
+            <p className="text-lg">
+              CEO & Managing Director <br />
+              +966 505924712,
+              <br />
+              habeeb@olsortz.com <br />
+              investmentaxis@hotmail.com
+            </p>
+          </div>
+        </div>
+        <div className="c-part-2">
+          <div className="c-address">
+          <div className="w-60 md:w-auto my-1">
+            <h1 className="uppercase text-2xl text-blue-400">
+              Habeeb Al Hafidh
+            </h1>
+            <p className="text-lg">
+              CEO & Managing Director <br />
+              +966 505924712,
+              <br />
+              habeeb@olsortz.com <br />
+              investmentaxis@hotmail.com
+            </p>
+          </div>
+</div>
+        </div>
+      </div>
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -152,9 +192,9 @@ const ContactForm = () => {
         </form>
       </div>
       <div className="maps">
-        <div className="md:flex md:flex-col md:items-center md:justify-evenly">
+        <div className="md:flex  md:justify-evenly">
           <h1 className="text-3xl md:my-3 mx-5 ">We Reside Here</h1>
-          <div className=" md:flex md:justify-center md:items-center">
+          <div className="">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d242.98812692960058!2d80.26507117042007!3d13.071359532877871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1708927702467!5m2!1sen!2sin"
               width="1500"
