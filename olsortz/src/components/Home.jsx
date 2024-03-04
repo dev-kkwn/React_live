@@ -71,7 +71,7 @@ function Section1() {
       </div>
 
 
-        <div id="sec-2" className="py-5 px-8 lg:px-20">
+        <div id="sec-2" className="py-5 px-8 lg:px-20 xl:px-24">
           <div className="flex  flex-wrap">
             <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
               <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
@@ -96,7 +96,7 @@ function Section1() {
                 </a>
               </div>
             </div>
-            <div className="p-8 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+            <div className="py-8 px-3.5 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
               <img
                 src={aboutimg1}
                 className="rounded-3xl object-cover"
@@ -107,7 +107,7 @@ function Section1() {
         </div>
 
 
-      <div id="sec-3" className="py-5 px-8 lg:px-20 bg-blue-100 text-black">
+      <div id="sec-3" className="py-5 px-8 lg:px-20 xl:px-24 bg-blue-100 text-black">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -141,7 +141,7 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec-4" className="py-5 px-8 lg:px-20">
+      <div id="sec-4" className="py-5 px-8 lg:px-20 xl:px-24">
         <div>
           <div className="text-center">
             <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
@@ -242,7 +242,7 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec-5" className="py-5 px-8 lg:px-20 bg-blue-100 text-black">
+      <div id="sec-5" className="py-5 px-8 lg:px-20 xl:px-24 bg-blue-100 text-black">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -467,7 +467,7 @@ function Section1() {
         </div> */}
       </div>
 
-      <div id="sec-7" className="py-5 px-8 lg:px-20">
+      <div id="sec-7" className="py-5 px-8 lg:px-20 xl:px-24">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
