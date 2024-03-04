@@ -70,8 +70,8 @@ function Section1() {
         </div>
       </div>
 
-      <div className="lg:px-15 ">
-        <div id="sec-2" className="p-5 md:px-10">
+
+        <div id="sec-2" className="py-5 px-8 lg:px-20">
           <div className="flex  flex-wrap">
             <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
               <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
@@ -105,9 +105,9 @@ function Section1() {
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="sec-3" className="py-5 px-5 lg:px-14 bg-blue-100 text-black">
+
+      <div id="sec-3" className="py-5 px-8 lg:px-20 bg-blue-100 text-black">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -141,7 +141,7 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec-4" className="p-5">
+      <div id="sec-4" className="py-5 px-8 lg:px-20">
         <div>
           <div className="text-center">
             <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
@@ -242,7 +242,7 @@ function Section1() {
         </div>
       </div>
 
-      <div id="sec-5" className="py-5 px-5 lg:px-14 bg-blue-100 text-black">
+      <div id="sec-5" className="py-5 px-8 lg:px-20 bg-blue-100 text-black">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
@@ -308,7 +308,7 @@ function Section1() {
             INNOVATING FOR A SUSTAINABLE TOMORROW IN SERVICES WE PROVIDE{" "}
           </h1>
         </div>
-        <div className="flex flex-wrap gap-x-20 gap-y-10 w-full justify-center pl-10 pt-10 pr-10 pb-4">
+        <div className="flex flex-wrap gap-x-16 gap-y-10 w-full justify-center pl-10 pt-10 pr-10 pb-4">
           <div class="w-60 h-fit group">
             <div class="relative overflow-hidden rounded-2xl">
               <img
@@ -467,7 +467,7 @@ function Section1() {
         </div> */}
       </div>
 
-      <div id="sec-7" className="py-5 px-5 lg:px-14">
+      <div id="sec-7" className="py-5 px-8 lg:px-20">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 lg:order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
