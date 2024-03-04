@@ -70,8 +70,8 @@ function Section1() {
         </div>
       </div>
 
-      <div className="lg:px-10">
-        <div id="sec-2" className="p-5">
+      <div className="lg:px-15 ">
+        <div id="sec-2" className="p-5 md:px-10">
           <div className="flex  flex-wrap">
             <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
               <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
@@ -96,7 +96,7 @@ function Section1() {
                 </a>
               </div>
             </div>
-            <div className="p-5 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
+            <div className="p-8 order-2 lg:order-1 h-auto w-full lg:w-1/2 flex xl:flex-grow">
               <img
                 src={aboutimg1}
                 className="rounded-3xl object-cover"
@@ -121,11 +121,9 @@ function Section1() {
               <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
-              {" "}
-              POWERING YOUR FUTURE{" "}
+              POWERING YOUR FUTURE
             </h1>
             <p className="text-md my-6 text-start xl:text-xl">
-              {" "}
               With cutting-edge technology and unparalleled expertise, we've
               propelled your future forward by delivering reliable, sustainable
               power solutions tailored to your needs. Our commitment to
