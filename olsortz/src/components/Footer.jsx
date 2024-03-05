@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className=" bg-black text-white p-3">
+      <div className=" bg-white text-black p-3">
         <div className="text-center my-4">
           {/* <h1 className="text-2xl font-medium capitalize">our key contacts</h1> */}
         </div>
@@ -38,7 +38,7 @@ function Footer() {
           </div>
           <div className="flex flex-wrap justify-around items-center w-full gap-6 p-2">
             <div className="w-60 ">
-              <h1 className="text-xl text-blue-400 uppercase ">
+              <h1 className="text-xl text-[#AD2E24] uppercase ">
                 Saudi Arabia{" "}
               </h1>
               <p className="text-sm">
@@ -50,7 +50,7 @@ function Footer() {
               </p>
             </div>
             <div className="w-60">
-              <h1 className="text-xl text-blue-400 uppercase ">U.A.E</h1>
+              <h1 className="text-xl text-[#AD2E24] uppercase ">U.A.E</h1>
               <p className="text-sm">
                 P.O.Box 242808 <br />
                 Al Abbas Building Office No.504/ Room 10 Bank Street , Burdubai
@@ -59,7 +59,7 @@ function Footer() {
               </p>
             </div>
             <div className="w-60">
-              <h1 className="text-xl text-blue-400 uppercase ">Bahrain</h1>
+              <h1 className="text-xl text-[#AD2E24] uppercase ">Bahrain</h1>
               <p className="text-sm">
                 {" "}
                 P.0.Box 5017 <br />
@@ -68,7 +68,7 @@ function Footer() {
               </p>
             </div>
             <div className="w-60">
-              <h1 className="text-xl text-blue-400 uppercase ">India </h1>
+              <h1 className="text-xl text-[#AD2E24] uppercase ">India </h1>
               <p className="text-sm">
                 60/478 2nd Floor, Kolathara Arcade,
                 <br />
@@ -81,10 +81,10 @@ function Footer() {
         <div className="flex justify-center items-center ">
           <div className="w-full my-2 md:flex md:justify-evenly text-center">
             <p className="">
-              <span className="text-blue-400">Email</span>: helpdesk@olsortz.com
+              <span className="text-[#AD2E24]">Email</span>: helpdesk@olsortz.com
             </p>
             <p className="">
-              <span className="text-blue-400">Telefax</span>: +966 013 5974170
+              <span className="text-[#AD2E24]">Telefax</span>: +966 013 5974170
             </p>
           </div>
         </div>
@@ -93,10 +93,10 @@ function Footer() {
             stay tuned with us
           </h1>
           <div className="flex justify-center items-center gap-10 text-3xl my-2 mt-5">
-            <FaInstagram className="text-blue-400" />
-            <FaTwitter className="text-blue-400" />
-            <FaFacebook className="text-blue-400" />
-            <FaYoutube className="text-blue-400" />
+            <FaInstagram className="text-[#AD2E24]" />
+            <FaTwitter className="text-[#AD2E24]" />
+            <FaFacebook className="text-[#AD2E24]" />
+            <FaYoutube className="text-[#AD2E24]" />
           </div>
         </div>
         <hr className="my-4" />

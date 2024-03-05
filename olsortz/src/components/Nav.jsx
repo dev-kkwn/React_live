@@ -7,14 +7,16 @@ import { IoInformationCircleOutline } from "react-icons/io5";
 import { useState } from "react";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
+import logo from "../assests/logo.jpeg"
 
 function Nav() {
   const [sidemenu, setSideMenu] = useState(false);
   return (
     <>
-      <div className="flex items-center justify-between p-1 bg-black text-white">
+      <div className="flex items-center justify-around p-1  text-black">
         <div className="max-w-max">
-          <h1 className=" p-3 text-3xl capitalize">main logo</h1>
+          {/* <h1 className=" p-3 text-3xl capitalize">main logo</h1> */}
+          <img src={logo} alt="logo" className=" h-16" />
         </div>
         <div className="md:hidden text-2xl">
           <HiOutlineBars3BottomRight onClick={() => setSideMenu(true)} />
@@ -37,12 +39,12 @@ function Nav() {
                 />
               </div>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
+            <div className="flex items-center my-2 p-1 w-max hover:text-[#AD2E24]">
               <IoHomeOutline />
               <h1 className="ml-1 capitalize"><Link to="/">Home</Link></h1>
             </div>
             <div className="dropdown w-max">
-              <div className="flex items-center my-2 p-1  hover:text-blue-400">
+              <div className="flex items-center my-2 p-1  hover:text-[#AD2E24]">
                 <div className="flex items-center">
                   <FaServicestack />
                   <h1 className="ml-1 capitalize">services</h1>
@@ -74,29 +76,29 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
+            <div className="flex items-center my-2 p-1 w-max hover:text-[#AD2E24]">
               <MdGroups2 className="text-xl" />
               <h1 className="ml-1 capitalize"><Link to="">who&nbsp;are&nbsp;we</Link></h1>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
+            <div className="flex items-center my-2 p-1 w-max hover:text-[#AD2E24]">
               <IoInformationCircleOutline className="text-xl" />
               <h1 className="ml-1 capitalize"> <Link to="/about">about</Link>
                 </h1>
             </div>
-            <div className="flex items-center my-2 p-1 w-max hover:text-blue-400">
+            <div className="flex items-center my-2 p-1 w-max hover:text-[#AD2E24]">
               <MdContactPage className="text-lg" />
               <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link></h1>
             </div>
           </div>
         </div>
-        <div className="hidden md:flex justify-evenly w-3/4 text-white lg:w-2/4 ">
-          <div className="flex justify-center items-center hover:text-blue-400">
+        <div className="hidden md:flex justify-evenly w-3/4 text-black lg:w-2/4 ">
+          <div className="flex justify-center items-center hover:text-[#AD2E24]">
             <IoHomeOutline />
             <h1 className="ml-1 capitalize">
               <Link to="/">Home</Link></h1>
           </div>
           <div className="dropdown">
-            <div className="flex justify-center items-center hover:text-blue-400">
+            <div className="flex justify-center items-center hover:text-[#AD2E24]">
               <div className="flex items-center">
                 <FaServicestack />
                 <h1 className="ml-1 capitalize">services</h1>
@@ -126,15 +128,15 @@ function Nav() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-400">
+          <div className="flex justify-center items-center hover:text-[#AD2E24]">
             <MdGroups2 className="text-xl" />
             <h1 className="ml-1 capitalize"><Link to="/whoweare"> who&nbsp;are&nbsp;we</Link></h1>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-400">
+          <div className="flex justify-center items-center hover:text-[#AD2E24]">
             <IoInformationCircleOutline className="text-xl" />
             <h1 className="ml-1 capitalize"><Link to="/about">About</Link></h1>
           </div>
-          <div className="flex justify-center items-center hover:text-blue-400">
+          <div className="flex justify-center items-center hover:text-[#AD2E24]">
             <MdContactPage className="text-lg" />
             <h1 className="ml-1 capitalize"><Link to="/contact">Contact</Link> </h1>
           </div>

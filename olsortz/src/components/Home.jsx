@@ -74,7 +74,7 @@ function Section1() {
         <div id="sec-2" className="py-5 px-8 lg:px-20 xl:px-24">
           <div className="flex  flex-wrap">
             <div className="order-1 lg:order-2 h-auto w-full lg:w-1/2 text-start justify-start p-4">
-              <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-16">
+              <p className="text-[#AD2E24] text-md my-5 mb-6 xl:text-xl xl:mt-16">
                 <span className=""> - </span> ABOUT US <span> - </span>
               </p>
               <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
@@ -90,7 +90,7 @@ function Section1() {
               {/* <a href={'/'} className="text-xl xl:text-3xl ">
               Learn More +
             </a> */}
-              <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
+              <div className="border-2 border-[#AD2E24] p-2 rounded-lg text-white bg-[#AD2E24] w-max divine">
                 <a href={"/"} className="text-lg">
                   Learn More
                 </a>
@@ -117,7 +117,7 @@ function Section1() {
             />
           </div>
           <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7">
+            <p className="text-[#AD2E24] text-md my-5 mb-6 xl:text-xl xl:mt-7">
               <span className=""> - </span> OUR ACHIEVEMENTS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
@@ -132,7 +132,7 @@ function Section1() {
               your path, energizing every step of the way.{" "}
             </p>
             {/* <a href={'/'} className="text-xl xl:text-3xl "> Learn More + </a> */}
-            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+            <div className="border-2  p-2 rounded-lg border-[#AD2E24] text-black bg-white w-max hover:bg-[#AD2E24] hover:text-white">
               <a href={"/"} className="text-xl">
                 Learn More
               </a>
@@ -144,7 +144,7 @@ function Section1() {
       <div id="sec-4" className="py-5 px-8 lg:px-20 xl:px-24">
         <div>
           <div className="text-center">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
+            <p className="text-[#AD2E24] text-md my-5 mb-6 xl:text-xl xl:mt-7 uppercase">
               <span className=""> - </span> OUR teams <span> - </span>
             </p>
           </div>
@@ -202,7 +202,7 @@ function Section1() {
           <div className="my-2 p-5 flex flex-wrap justify-around">
             <div className="md:w-60 flex justify-around items-center m-2 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
               <p>
-                <GiMedal className="text-[60px] text-blue-600 " />
+                <GiMedal className="text-[60px] text-[#AD2E24]" />
               </p>
               <div className="flex flex-col items-start">
                 <p className="text-5xl font-medium">
@@ -213,7 +213,7 @@ function Section1() {
             </div>
             <div className="md:w-60 flex justify-around items-center m-2 py-3 pl-1 pr-2 rounded-xl bg-slate-50 shadow-xl">
               <p>
-                <GiTrophyCup className="text-[55px] text-blue-600 " />
+                <GiTrophyCup className="text-[55px] text-[#AD2E24] " />
               </p>
               <div className="flex flex-col items-start">
                 <p className="text-5xl font-medium"><CounterAwards/>+</p>
@@ -222,7 +222,7 @@ function Section1() {
             </div>
             <div className="w-52 md:w-60 flex justify-around items-center m-2 px-3 py-3 pr-2 rounded-xl bg-slate-50 shadow-xl">
               <p>
-                <MdGroups className="text-[50px] text-blue-600 " />
+                <MdGroups className="text-[50px] text-[#AD2E24] " />
               </p>
               <div className="flex flex-col items-start">
                 <p className="text-5xl font-medium"><CounterTeams/>+</p>
@@ -231,7 +231,7 @@ function Section1() {
             </div>
             <div className="w-52 md:w-60 flex justify-around items-center m-2 pl-2 py-3 pr-2  rounded-xl bg-slate-50 shadow-xl">
               <p>
-                <FaProjectDiagram className="text-[50px] text-blue-600 " />
+                <FaProjectDiagram className="text-[50px] text-[#AD2E24] " />
               </p>
               <div className="flex flex-col  ml-2 items-start">
                 <p className="text-5xl font-medium"><CounterProjects/>+</p>
@@ -252,7 +252,7 @@ function Section1() {
             />
           </div>
           <div className="h-auto order-1 w-full lg:w-1/2 text-start justify-start p-4">
-            <p className="text-blue-400 uppercase text-md my-5 mb-6 xl:text-xl xl:mt-7">
+            <p className="text-[#AD2E24] uppercase text-md my-5 mb-6 xl:text-xl xl:mt-7">
               <span className=""> - </span> technologies <span> - </span>
             </p>
             <h1 className="text-3xl uppercase font-bold mt-1 xl:text-4xl">
@@ -289,7 +289,7 @@ function Section1() {
                 </div>
               </div>
             </div>
-            <div className="border-2  p-2 rounded-lg border-blue-400 text-black bg-white w-max boost">
+            <div className="border-2  p-2 rounded-lg border-[#AD2E24] text-black bg-white w-max hover:bg-[#AD2E24] hover:text-white">
               <a href={"/"} className="text-xl">
                 Learn More
               </a>
@@ -300,7 +300,7 @@ function Section1() {
 
       <div id="sec-6" className="bg-black text-white py-8">
         <div className="text-center pt-5">
-          <p className="text-blue-400 md:text-lg lg:text-xl mb-6">
+          <p className="text-[#AD2E24] md:text-lg lg:text-xl mb-6">
             {" "}
             <span> - </span> SERVICES WE PROVIDE <span> - </span>{" "}
           </p>
@@ -477,7 +477,7 @@ function Section1() {
             />
           </div>
           <div className="order-1 lg:order-1 h-auto w-full lg:w-1/2 text-start justify-start p-4 ">
-            <p className="text-blue-400 text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
+            <p className="text-[#AD2E24] text-md my-5 mb-6 xl:text-xl xl:mt-12 ">
               <span className=""> - </span> OUR BENEFITS <span> - </span>
             </p>
             <h1 className="text-3xl font-bold mt-1 xl:text-4xl">
@@ -492,7 +492,7 @@ function Section1() {
               the future of oil and gas propels us towards a more sustainable
               energy landscape.
             </p>
-            <div className="border-2 border-blue-400 p-2 rounded-lg text-white bg-blue-400 w-max divine">
+            <div className="border-2 border-[#AD2E24] p-2 rounded-lg text-white bg-[#AD2E24] w-max hover:bg-white hover:text-black">
               <a href={"/"} className="text-lg">
                 Learn More
               </a>
