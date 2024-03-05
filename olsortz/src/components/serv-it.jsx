@@ -20,7 +20,7 @@ export default function Servit() {
             </div>
           </div>
         </div>
-        <div className="intro-bang p-3 md:p-4">
+        <div className="intro-bang p-3 md:p-4 lg:px-20">
           <div className="flex flex-wrap justify-evenly md:px-5">
             <div className="part-1 w-full md:mx-5">
               <h1 className="text-2xl my-2 font-semibold">
@@ -63,7 +63,7 @@ export default function Servit() {
 
         <section className="mb-10 md:px-6">
           <div className="my-5 py-4 px-2 md:px-4 xl:px-10">
-            <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
+            <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-center">
               WHAT ENABLES
               <span className="font-bold"> INTELLIGENT INDUSTRY?</span>
             </h1>
@@ -141,7 +141,7 @@ export default function Servit() {
           </div>
         </section>
 
-        <div className="main-wrapper md:p-5">
+        <div className="main-wrapper md:p-5 lg:px-20">
           <div className="main-part-1 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center  w-full md:my-10">
             <div className="pm-1 p-5 w-full md:w-2/4 flex flex-col items-center">
               <h1 className="text-3xl font-bold">

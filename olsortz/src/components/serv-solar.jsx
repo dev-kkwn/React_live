@@ -20,7 +20,7 @@ export function Solar() {
             </div>
           </div>
         </div>
-        <div className="intro-bang p-3 md:p-4">
+        <div className="intro-bang p-3 md:p-4 lg:px-20">
           <div className="flex flex-wrap justify-evenly md:px-5">
             <div className="part-1 w-full md:mx-5">
               <h1 className="text-2xl my-2 font-semibold">
@@ -61,9 +61,9 @@ export function Solar() {
           </div>
         </div>
 
-        <section className="mb-10 md:px-6">
+        <section className="mb-10 md:px-6 ">
           <div className="my-5 py-4 px-2 md:px-4 xl:px-10">
-            <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl">
+            <h1 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-center">
               WHAT ENABLES
               <span className="font-bold"> INTELLIGENT INDUSTRY?</span>
             </h1>
@@ -141,8 +141,8 @@ export function Solar() {
           </div>
         </section>
 
-        <div className="main-wrapper md:p-5">
-          <div className="main-part-1 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center  w-full md:my-10">
+        <div className="main-wrapper md:p-5 lg:px-20">
+          <div className="main-part-1 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-evenly lg:items-center  w-full md:my-10">
             <div className="pm-1 p-5 w-full md:w-2/4 flex flex-col items-center">
               <h1 className="text-3xl font-bold">
                 Core Values and Commitments
@@ -167,16 +167,17 @@ export function Solar() {
               <img
                 src={solar1}
                 alt="image1"
-                className="w- h-96 rounded-none md:rounded-3xl"
+                className="w- h-80 rounded-none md:rounded-3xl"
               />
             </div>
           </div>
-          <div className="main-part-2 my-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-around lg:items-center w-full md:my-5">
+
+          <div className="main-part-2 my-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center lg:flex lg:justify-evenly lg:items-center w-full md:my-5">
             <div className="pm-img">
               <img
                 src={solar2}
                 alt="image2"
-                className="w- h-96 rounded-none md:rounded-3xl"
+                className="w- h-80 rounded-none md:rounded-3xl"
               />
             </div>
             <div className="pm-2 p-5 w-full md:w-2/4 flex flex-col items-center">
@@ -201,7 +202,7 @@ export function Solar() {
             </div>
           </div>
 
-          <div className="main-part-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center md:flex md:justify-around md:items-center w-full md:my-5">
+          <div className="main-part-3 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center md:flex md:justify-evenly md:items-center w-full md:my-5">
             <div className="pm-3 p-5 w-full lg:p-5 md:w-2/4 flex flex-col items-center">
               <h1 className="text-3xl font-bold">Customer-Centric Approach</h1>
               <p className="md:max-lg:my-2 lg:my-5 my-5 text-xl">
@@ -224,7 +225,7 @@ export function Solar() {
               <img
                 src={solar3}
                 alt="image3"
-                className="h-96 rounded-none md:rounded-3xl"
+                className="h-80 rounded-none md:rounded-3xl"
               />
             </div>
           </div>
