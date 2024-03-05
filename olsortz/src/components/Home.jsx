@@ -107,7 +107,7 @@ function Section1() {
         </div>
 
 
-      <div id="sec-3" className="py-5 px-8 lg:px-20 xl:px-24 bg-blue-100 text-black">
+      <div id="sec-3" className="py-5 px-8 lg:px-20 xl:px-24 bg-[#FF715B] text-black">
         <div className="flex  flex-wrap">
           <div className="p-5 order-2 h-auto w-full lg:w-1/2 flex xl:flex-grow">
             <img
