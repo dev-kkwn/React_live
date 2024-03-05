@@ -9,9 +9,9 @@ function Whoweare() {
         <div id="sec1" className="container h-[450px] md:h-[600px] lg:w-full">
           <div className="absolute">
             <img
-              src={
+              src=
                 "https://jungleworks.com/wp-content/uploads/2020/07/Untitled-design-52.jpg"
-              }
+              
               className="mainblur h-[450px] md:h-[520px] md:w-[1024px]  lg:w-[1600px] xl:h-[600px] object-cover duration-500"
               alt=""
             />
@@ -41,9 +41,9 @@ function Whoweare() {
               heading
             </h1>
           </div>
-          <div className="overview-approach md:flex md:items-center md:p-5 lg:p-10 bg-blue-300">
-            <div className="overview-content px-2 lg:px-5">
-              <div className="idcon flex items-center">
+          <div className="overview-approach md:flex md:items-center md:p-5 lg:p-10 bg-blue-300 lg:px-20">
+            <div className="overview-content px-2 lg:px-5  text-justify">
+              <div className="idcon flex items-center justify-center">
                 <h1 className="mx-2 text-3xl my-3">OverView</h1>
                 <FaEye className="text-3xl" />
               </div>
@@ -54,8 +54,8 @@ function Whoweare() {
                 cupiditate molestiae dignissimos perspiciatis. Voluptate, vitae?
               </p>
             </div>
-            <div className="approach-centent px-2 lg:px-5">
-              <div className="idcon flex items-center">
+            <div className="approach-centent px-2 lg:px-5 text-justify">
+              <div className="idcon flex items-center justify-center">
                 <h1 className="mx-2 text-3xl my-3">Approach</h1>
                 <FaHeadSideVirus className="text-3xl" />
               </div>
